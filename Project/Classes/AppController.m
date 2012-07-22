@@ -86,6 +86,7 @@
 - (void) updateFeed: (NSTimer *) timer
 {
 #if 1	// Real way: in background.
+NSLog (@"> updateFeed");
    [NSThread detachNewThreadSelector: @selector (getTrendData) toTarget: self withObject: nil];
 #else
 	[self getTrendData];
@@ -96,6 +97,7 @@
 
 - (void) getTrendData
 {
+	NSLog (@"> getTrendData");
 	NSAutoreleasePool *pool = [[NSAutoreleasePool alloc] init];
 
 	NSError *parseError = nil;
@@ -105,13 +107,15 @@
 	if ([feed isEqualToString: kReminders])
 	{
 		NSMutableArray *trends = [NSMutableArray arrayWithCapacity: 5];
+		Trend *trend;
 		
-		Trend *trend = [[Trend alloc] init];
+		trend = [[Trend alloc] init];
 		trend.title = @"Eat";
 		trend.webLink = @"";
 		trend.hotness = @"Medium";
 		trend.previousRank = @"new";
 		[trends addObject: trend];
+		[trend release];
 		
 		trend = [[Trend alloc] init];
 		trend.title = @"Drink";
@@ -119,6 +123,7 @@
 		trend.hotness = @"Medium";
 		trend.previousRank = @"new";
 		[trends addObject: trend];
+		[trend release];
 		
 		trend = [[Trend alloc] init];
 		trend.title = @"Sleep";
@@ -126,6 +131,7 @@
 		trend.hotness = @"Medium";
 		trend.previousRank = @"new";
 		[trends addObject: trend];
+		[trend release];
 		
 		trend = [[Trend alloc] init];
 		trend.title = @"Go to the bathroom";
@@ -133,6 +139,7 @@
 		trend.hotness = @"Medium";
 		trend.previousRank = @"new";
 		[trends addObject: trend];
+		[trend release];
 		
 		trend = [[Trend alloc] init];
 		trend.title = @"Stretch";
@@ -140,8 +147,8 @@
 		trend.hotness = @"Medium";
 		trend.previousRank = @"new";
 		[trends addObject: trend];
-		
 		[trend release];
+		
 		[self setTrendList: trends];
 	}
 	else
@@ -159,6 +166,7 @@
 
 - (void) setTrendList: (NSMutableArray *) newTrends
 {
+	NSLog (@"> setTrendList");
     self.currentTrends = newTrends;
 	[self updateFeed: nil];		// Spawn a thread to fetch the trend data so that the UI is not blocked while the application parses the XML file.
 }

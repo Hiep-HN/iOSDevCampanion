@@ -394,40 +394,47 @@ int Random (int range)
 
 - (void) iOSFeed: (id) sender
 {
+	NSLog (@"> iOSFeed");
 	AppController *appDelegate = (AppController *) [[UIApplication sharedApplication] delegate];
 	appDelegate.feed = kBlekkoiOS;
-
+	[appDelegate updateFeed: nil];
 }
 
 
 
 - (void) peopleFeed: (id) sender
 {
+	NSLog (@"> peopleFeed");
 	AppController *appDelegate = (AppController *) [[UIApplication sharedApplication] delegate];
 	appDelegate.feed = kRavenZachary;
+	[appDelegate updateFeed: nil];
 }
 
 
 
 - (void) twitterFeed: (id) sender
 {
+	NSLog (@"> twitterFeed");
 	AppController *appDelegate = (AppController *) [[UIApplication sharedApplication] delegate];
 	appDelegate.feed = kiOSDevCampOnTwitter;
+	[appDelegate updateFeed: nil];
 }
 
 
 
 - (void) remindersFeed: (id) sender
 {
+	NSLog (@"> remindersFeed");
 	AppController *appDelegate = (AppController *) [[UIApplication sharedApplication] delegate];
 	appDelegate.feed = kReminders;
+	[appDelegate updateFeed: nil];
 }
 
 
 
 - (void) singly: (id) sender
 {
-	//??? send "I want a helicopter" to feeds using Singly
+	NSLog (@"> singly");
 	UIActionSheet *alertView = [[UIActionSheet alloc] initWithTitle: @"I want a helicopter from Singly!"
 														   delegate: self
 												  cancelButtonTitle: @"Cancel"
@@ -451,7 +458,6 @@ int Random (int range)
 		cloud.view.transform = CGAffineTransformMakeScale (1.3, 1.3);
 		[UIView commitAnimations];
 		
-NSString *temp = cloud.trend.webLink;
 		[[UIApplication sharedApplication] openURL: [NSURL URLWithString: cloud.trend.webLink]];
 	}
 }

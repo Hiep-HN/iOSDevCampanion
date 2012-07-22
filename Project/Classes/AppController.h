@@ -54,6 +54,7 @@
 - (void) getTrendData;
 - (void) addToTrendList: (Trend *) eq;
 - (void) setTrendList: (NSMutableArray *) newTrends;
+- (void) updateFeed: (NSTimer *) timer;
 - (BOOL) isDataSourceAvailable;
 - (void) saveTrends: (NSArray *) trends withKey: (NSString *) key;
 - (NSArray *) readTrendsWithKey: (NSString *) key;

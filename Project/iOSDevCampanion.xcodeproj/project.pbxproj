@@ -37,7 +37,7 @@
 /* Begin PBXFileReference section */
 		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		1D3623EB0D0F72F000981E51 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		1D6058910D05DD3D006BFB54 /* Trendz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Trendz.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D6058910D05DD3D006BFB54 /* iOSDevCampanion.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSDevCampanion.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		28C286DF0D94DF7D0034E888 /* TrendsListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TrendsListViewController.h; sourceTree = "<group>"; };
 		28C286E00D94DF7D0034E888 /* TrendsListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TrendsListViewController.m; sourceTree = "<group>"; };
@@ -128,7 +128,7 @@
 		19C28FACFE9D520D11CA2CBB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1D6058910D05DD3D006BFB54 /* Trendz.app */,
+				1D6058910D05DD3D006BFB54 /* iOSDevCampanion.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -182,9 +182,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		1D6058900D05DD3D006BFB54 /* Trendz */ = {
+		1D6058900D05DD3D006BFB54 /* iOSDevCampanion */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "Trendz" */;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "iOSDevCampanion" */;
 			buildPhases = (
 				1D60588D0D05DD3D006BFB54 /* Resources */,
 				1D60588E0D05DD3D006BFB54 /* Sources */,
@@ -194,9 +194,9 @@
 			);
 			dependencies = (
 			);
-			name = Trendz;
+			name = iOSDevCampanion;
 			productName = SeismicXML;
-			productReference = 1D6058910D05DD3D006BFB54 /* Trendz.app */;
+			productReference = 1D6058910D05DD3D006BFB54 /* iOSDevCampanion.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -204,7 +204,7 @@
 /* Begin PBXProject section */
 		29B97313FDCFA39411CA2CEA /* Project object */ = {
 			isa = PBXProject;
-			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Trendz" */;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "iOSDevCampanion" */;
 			compatibilityVersion = "Xcode 3.1";
 			developmentRegion = English;
 			hasScannedForEncodings = 1;
@@ -215,7 +215,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				1D6058900D05DD3D006BFB54 /* Trendz */,
+				1D6058900D05DD3D006BFB54 /* iOSDevCampanion */,
 			);
 		};
 /* End PBXProject section */
@@ -274,7 +274,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = Trendz_Prefix.pch;
 				INFOPLIST_FILE = Info.plist;
-				PRODUCT_NAME = Trendz;
+				PRODUCT_NAME = iOSDevCampanion;
 				PROVISIONING_PROFILE = "9383419D-61E2-4A26-9E11-18D06F3CA578";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "9383419D-61E2-4A26-9E11-18D06F3CA578";
 			};
@@ -287,7 +287,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = Trendz_Prefix.pch;
 				INFOPLIST_FILE = Info.plist;
-				PRODUCT_NAME = Trendz;
+				PRODUCT_NAME = iOSDevCampanion;
 			};
 			name = Release;
 		};
@@ -316,7 +316,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = Trendz_Prefix.pch;
 				INFOPLIST_FILE = Info.plist;
-				PRODUCT_NAME = Trendz;
+				PRODUCT_NAME = iOSDevCampanion;
 			};
 			name = Distribution;
 		};
@@ -356,7 +356,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "Trendz" */ = {
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "iOSDevCampanion" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1D6058940D05DD3E006BFB54 /* Debug */,
@@ -366,7 +366,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Trendz" */ = {
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "iOSDevCampanion" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C01FCF4F08A954540054247B /* Debug */,

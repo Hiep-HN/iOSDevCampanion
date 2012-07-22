@@ -95,6 +95,10 @@
 	{
         self.contentOfCurrentTrendProperty = @"";
     }
+	else if ([elementName isEqualToString: @"link"])
+	{
+        self.contentOfCurrentTrendProperty = @"";
+    }
 }
 
 
