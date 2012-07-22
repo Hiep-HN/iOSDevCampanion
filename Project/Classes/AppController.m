@@ -1,7 +1,6 @@
 // AppController.m - Controller for the application.
 
 #import "AppController.h"
-#import "TrendsListViewController.h"
 #import "XMLReader.h"
 #import "Trend.h"
 #import "TrendsViewController.h"
@@ -260,7 +259,7 @@ NSLog (@"> updateFeed");
 		for (NSDictionary *trendDictionary in trendsArray)
 		{
 			Trend *trend = [[Trend alloc] init];
-			trend.title = [[trendDictionary objectForKey: @"title"] retain];
+			trend.title = [[[trendDictionary objectForKey: @"title"] stringByReplacingPercentEscapesUsingEncoding: NSUTF8StringEncoding] retain];
 			trend.webLink = [[trendDictionary objectForKey: @"webLink"] retain];
 			trend.hotness = [[trendDictionary objectForKey: @"hotness"] retain];
 			trend.previousRank = [[trendDictionary objectForKey: @"previousRank"] retain];

@@ -11,7 +11,6 @@
 		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
 		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
 		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
-		28C286E10D94DF7D0034E888 /* TrendsListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28C286E00D94DF7D0034E888 /* TrendsListViewController.m */; };
 		5312F6BA0FAB6632003520DB /* Background.png in Resources */ = {isa = PBXBuildFile; fileRef = 5312F6B90FAB6632003520DB /* Background.png */; };
 		53196D960FA8F7D60047783A /* TrendsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 53196D950FA8F7D60047783A /* TrendsViewController.m */; };
 		53196F670FA923640047783A /* CloudViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 53196F660FA923640047783A /* CloudViewController.m */; };
@@ -39,8 +38,6 @@
 		1D3623EB0D0F72F000981E51 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		1D6058910D05DD3D006BFB54 /* iOSDevCampanion.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSDevCampanion.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		28C286DF0D94DF7D0034E888 /* TrendsListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TrendsListViewController.h; sourceTree = "<group>"; };
-		28C286E00D94DF7D0034E888 /* TrendsListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TrendsListViewController.m; sourceTree = "<group>"; };
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		5312F6B90FAB6632003520DB /* Background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Background.png; path = Images/Background.png; sourceTree = "<group>"; };
 		53196D940FA8F7D60047783A /* TrendsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TrendsViewController.h; sourceTree = "<group>"; };
@@ -109,8 +106,6 @@
 				84EF889D0DB9369300448949 /* Trend.m */,
 				53649F8A0FAD7CEC001015B3 /* SearchBarController.h */,
 				53649F8B0FAD7CEC001015B3 /* SearchBarController.m */,
-				28C286DF0D94DF7D0034E888 /* TrendsListViewController.h */,
-				28C286E00D94DF7D0034E888 /* TrendsListViewController.m */,
 				8480A9000DB93F2800CD87F1 /* TableViewCell.h */,
 				8480A9010DB93F2800CD87F1 /* TableViewCell.m */,
 				84EF88A10DB9369C00448949 /* XMLReader.h */,
@@ -243,7 +238,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
-				28C286E10D94DF7D0034E888 /* TrendsListViewController.m in Sources */,
 				84EF889E0DB9369300448949 /* Trend.m in Sources */,
 				84EF88A20DB9369C00448949 /* XMLReader.m in Sources */,
 				8480A9020DB93F2800CD87F1 /* TableViewCell.m in Sources */,
@@ -275,8 +269,8 @@
 				GCC_PREFIX_HEADER = Trendz_Prefix.pch;
 				INFOPLIST_FILE = Info.plist;
 				PRODUCT_NAME = iOSDevCampanion;
-				PROVISIONING_PROFILE = "9383419D-61E2-4A26-9E11-18D06F3CA578";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "9383419D-61E2-4A26-9E11-18D06F3CA578";
+				PROVISIONING_PROFILE = "18FC85D4-1BDB-4212-86F6-24085522B7C6";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "18FC85D4-1BDB-4212-86F6-24085522B7C6";
 			};
 			name = Debug;
 		};

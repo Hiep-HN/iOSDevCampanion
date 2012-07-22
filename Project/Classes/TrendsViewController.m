@@ -4,7 +4,6 @@
 #import "TrendsView.h"
 #import "AppController.h"
 #import "TrendsViewController.h"
-#import "TrendsListViewController.h"
 #import "CloudViewController.h"
 #import "Trend.h"
 #import "SearchBarController.h"
