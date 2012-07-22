@@ -1,0 +1,666 @@
+TTrendz
+v7
+r0
+t270813120.576952
+cCheck dependencies
+cProcessInfoPlistFile /Users/mhourigan/Documents/Projects/iPhone/Trendz/Project/build/Debug-iphonesimulator/Trendz.app/Info.plist Info.plist
+cCpResource build/Debug-iphonesimulator/Trendz.app/Default.png Default.png
+cCpResource build/Debug-iphonesimulator/Trendz.app/Icon.png Icon.png
+cCopyStringsFile /Users/mhourigan/Documents/Projects/iPhone/Trendz/Project/build/Debug-iphonesimulator/Trendz.app/Localizable.strings en.lproj/Localizable.strings
+cCpResource build/Debug-iphonesimulator/Trendz.app/Images Images
+cCpResource build/Debug-iphonesimulator/Trendz.app/Background.png Images/Background.png
+cCpResource "build/Debug-iphonesimulator/Trendz.app/How To.txt" "Classes/How To.txt"
+cCpResource build/Debug-iphonesimulator/Trendz.app/Settings.bundle Settings.bundle
+cProcessPCH /var/folders/ce/ceQT-Y95Ft8Di9gjzHlg4E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Trendz_Prefix-bkirlfrsokpzbredlrpzsspwdwss/Trendz_Prefix.pch.gch Trendz_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Trendz.build/Debug-iphonesimulator/Trendz.build/Objects-normal/i386/main.o /Users/mhourigan/Documents/Projects/iPhone/Trendz/Project/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Trendz.build/Debug-iphonesimulator/Trendz.build/Objects-normal/i386/TrendsListViewController.o /Users/mhourigan/Documents/Projects/iPhone/Trendz/Project/Classes/TrendsListViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Trendz.build/Debug-iphonesimulator/Trendz.build/Objects-normal/i386/Trend.o /Users/mhourigan/Documents/Projects/iPhone/Trendz/Project/Classes/Trend.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Trendz.build/Debug-iphonesimulator/Trendz.build/Objects-normal/i386/XMLReader.o /Users/mhourigan/Documents/Projects/iPhone/Trendz/Project/Classes/XMLReader.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Trendz.build/Debug-iphonesimulator/Trendz.build/Objects-normal/i386/TableViewCell.o /Users/mhourigan/Documents/Projects/iPhone/Trendz/Project/Classes/TableViewCell.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Trendz.build/Debug-iphonesimulator/Trendz.build/Objects-normal/i386/AppController.o /Users/mhourigan/Documents/Projects/iPhone/Trendz/Project/Classes/AppController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Trendz.build/Debug-iphonesimulator/Trendz.build/Objects-normal/i386/TrendsViewController.o /Users/mhourigan/Documents/Projects/iPhone/Trendz/Project/Classes/TrendsViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Trendz.build/Debug-iphonesimulator/Trendz.build/Objects-normal/i386/CloudViewController.o /Users/mhourigan/Documents/Projects/iPhone/Trendz/Project/Classes/CloudViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Trendz.build/Debug-iphonesimulator/Trendz.build/Objects-normal/i386/TrendsView.o /Users/mhourigan/Documents/Projects/iPhone/Trendz/Project/Classes/TrendsView.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Trendz.build/Debug-iphonesimulator/Trendz.build/Objects-normal/i386/SearchBarController.o /Users/mhourigan/Documents/Projects/iPhone/Trendz/Project/Classes/SearchBarController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Trendz.build/Debug-iphonesimulator/Trendz.build/Objects-normal/i386/SettingsViewController.o /Users/mhourigan/Documents/Projects/iPhone/Trendz/Project/Classes/SettingsViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Trendz.build/Debug-iphonesimulator/Trendz.build/Objects-normal/i386/SliderCell.o /Users/mhourigan/Documents/Projects/iPhone/Trendz/Project/Classes/SliderCell.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Trendz.build/Debug-iphonesimulator/Trendz.build/Objects-normal/i386/ClickableScrollView.o /Users/mhourigan/Documents/Projects/iPhone/Trendz/Project/Classes/ClickableScrollView.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/mhourigan/Documents/Projects/iPhone/Trendz/Project/build/Debug-iphonesimulator/Trendz.app/Trendz normal i386
+cGenerateDSYMFile /Users/mhourigan/Documents/Projects/iPhone/Trendz/Project/build/Debug-iphonesimulator/Trendz.app.dSYM /Users/mhourigan/Documents/Projects/iPhone/Trendz/Project/build/Debug-iphonesimulator/Trendz.app/Trendz
+cTouch /Users/mhourigan/Documents/Projects/iPhone/Trendz/Project/build/Debug-iphonesimulator/Trendz.app
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.0.sdk
+c000000004A5FF37200000000000000EE
+t1247802226
+s238
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.0.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004A0BAA26000000000026EE80
+t1242278438
+s2551424
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.0.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004A0BAB370000000000261F90
+t1242278711
+s2498448
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004A0BAB250000000000001355
+t1242278693
+s4949
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.0.sdk/System/Library/Frameworks/SystemConfiguration.framework/Headers/SystemConfiguration.h
+c000000004A0BA9330000000000001A78
+t1242278195
+s6776
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.0.sdk/System/Library/Frameworks/SystemConfiguration.framework/SystemConfiguration
+c000000004A0BA939000000000004D0D0
+t1242278201
+s315600
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004A0CBEBB000000000000075E
+t1242349243
+s1886
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.0.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004A0CBF5F0000000001434100
+t1242349407
+s21184768
+
+N/Users/mhourigan/Documents/Projects/iPhone/Trendz/Project/Classes/AppController.h
+c000000004A24EF510000000000000836
+t1243934545
+s2102
+i<UIKit/UIKit.h>
+i"TrendsViewController.h"
+i"Trend.h"
+i"SettingsViewController.h"
+
+N/Users/mhourigan/Documents/Projects/iPhone/Trendz/Project/Classes/AppController.m
+c000000004A20858A0000000000001DF7
+t1243645322
+s7671
+i"AppController.h"
+i"TrendsListViewController.h"
+i"XMLReader.h"
+i"Trend.h"
+i"TrendsViewController.h"
+i"CloudViewController.h"
+i"SettingsViewController.h"
+i<SystemConfiguration/SystemConfiguration.h>
+
+N/Users/mhourigan/Documents/Projects/iPhone/Trendz/Project/Classes/ClickableScrollView.h
+c000000004A0CB4C600000000000000A6
+t1242346694
+s166
+i<UIKit/UIKit.h>
+
+N/Users/mhourigan/Documents/Projects/iPhone/Trendz/Project/Classes/ClickableScrollView.m
+c000000004A0CB81200000000000000EE
+t1242347538
+s238
+i"ClickableScrollView.h"
+
+N/Users/mhourigan/Documents/Projects/iPhone/Trendz/Project/Classes/CloudViewController.h
+c0000000049FDC9D000000000000001F1
+t1241369040
+s497
+i<UIKit/UIKit.h>
+i"Trend.h"
+
+N/Users/mhourigan/Documents/Projects/iPhone/Trendz/Project/Classes/CloudViewController.m
+c000000004A34238800000000000012A1
+t1244930952
+s4769
+i"CloudViewController.h"
+i"AppController.h"
+
+N/Users/mhourigan/Documents/Projects/iPhone/Trendz/Project/Classes/How To.txt
+c0000000049D48A2E000000000000039C
+t1238665774
+s924
+
+N/Users/mhourigan/Documents/Projects/iPhone/Trendz/Project/Classes/SearchBarController.h
+c000000004A20B6D200000000000000E8
+t1243657938
+s232
+i<UIKit/UIKit.h>
+
+N/Users/mhourigan/Documents/Projects/iPhone/Trendz/Project/Classes/SearchBarController.m
+c000000004A23A8640000000000000D29
+t1243850852
+s3369
+i"SearchBarController.h"
+i"AppController.h"
+
+N/Users/mhourigan/Documents/Projects/iPhone/Trendz/Project/Classes/SettingsViewController.h
+c000000004A20855C0000000000000368
+t1243645276
+s872
+i<UIKit/UIKit.h>
+
+N/Users/mhourigan/Documents/Projects/iPhone/Trendz/Project/Classes/SettingsViewController.m
+c000000004A2393610000000000000A45
+t1243845473
+s2629
+i"SettingsViewController.h"
+i"AppController.h"
+i"SliderCell.h"
+
+N/Users/mhourigan/Documents/Projects/iPhone/Trendz/Project/Classes/SliderCell.h
+c000000004A0B15840000000000000178
+t1242240388
+s376
+i<UIKit/UIKit.h>
+
+N/Users/mhourigan/Documents/Projects/iPhone/Trendz/Project/Classes/SliderCell.m
+c000000004A0B15740000000000000698
+t1242240372
+s1688
+i"SliderCell.h"
+
+N/Users/mhourigan/Documents/Projects/iPhone/Trendz/Project/Classes/TableViewCell.h
+c000000004A04DBE500000000000001E3
+t1241832421
+s483
+i<UIKit/UIKit.h>
+i"Trend.h"
+
+N/Users/mhourigan/Documents/Projects/iPhone/Trendz/Project/Classes/TableViewCell.m
+c000000004A208D38000000000000179D
+t1243647288
+s6045
+i"TableViewCell.h"
+
+N/Users/mhourigan/Documents/Projects/iPhone/Trendz/Project/Classes/Trend.h
+c0000000049FF7BFC0000000000000288
+t1241480188
+s648
+i<Foundation/Foundation.h>
+
+N/Users/mhourigan/Documents/Projects/iPhone/Trendz/Project/Classes/Trend.m
+c000000004A13BC6B00000000000004B8
+t1242807403
+s1208
+i"Trend.h"
+
+N/Users/mhourigan/Documents/Projects/iPhone/Trendz/Project/Classes/TrendsListViewController.h
+c000000004A04AEC00000000000000214
+t1241820864
+s532
+i<UIKit/UIKit.h>
+
+N/Users/mhourigan/Documents/Projects/iPhone/Trendz/Project/Classes/TrendsListViewController.m
+c000000004A208C6100000000000023F1
+t1243647073
+s9201
+i"TrendsListViewController.h"
+i"AppController.h"
+i"TableViewCell.h"
+
+N/Users/mhourigan/Documents/Projects/iPhone/Trendz/Project/Classes/TrendsView.h
+c000000004A109A5F000000000000037D
+t1242602079
+s893
+i<UIKit/UIKit.h>
+i"ClickableScrollView.h"
+i"CloudViewController.h"
+
+N/Users/mhourigan/Documents/Projects/iPhone/Trendz/Project/Classes/TrendsView.m
+c000000004A20B6D20000000000001485
+t1243657938
+s5253
+i"TrendsView.h"
+i"TrendsViewController.h"
+i"AppController.h"
+
+N/Users/mhourigan/Documents/Projects/iPhone/Trendz/Project/Classes/TrendsViewController.h
+c000000004A3413360000000000000929
+t1244926774
+s2345
+i<UIKit/UIKit.h>
+i"TrendsView.h"
+i"SearchBarController.h"
+i"CloudViewController.h"
+
+N/Users/mhourigan/Documents/Projects/iPhone/Trendz/Project/Classes/TrendsViewController.m
+c000000004A342DA10000000000006671
+t1244933537
+s26225
+i"TrendsView.h"
+i"AppController.h"
+i"TrendsViewController.h"
+i"TrendsListViewController.h"
+i"CloudViewController.h"
+i"Trend.h"
+i"SearchBarController.h"
+
+N/Users/mhourigan/Documents/Projects/iPhone/Trendz/Project/Classes/XMLReader.h
+c000000004A119B4F00000000000002F2
+t1242667855
+s754
+i<Foundation/Foundation.h>
+i"Trend.h"
+i"AppController.h"
+
+N/Users/mhourigan/Documents/Projects/iPhone/Trendz/Project/Classes/XMLReader.m
+c000000004A24F8090000000000001904
+t1243936777
+s6404
+i"XMLReader.h"
+
+N/Users/mhourigan/Documents/Projects/iPhone/Trendz/Project/Default.png
+c000000004A13C6300000000000009DB3
+t1242809904
+s40371
+
+N/Users/mhourigan/Documents/Projects/iPhone/Trendz/Project/Icon.png
+c000000004A20268C0000000000000FF7
+t1243621004
+s4087
+
+N/Users/mhourigan/Documents/Projects/iPhone/Trendz/Project/Images
+c000000004A24E6F20000000000000352
+t1243932402
+s850
+
+N/Users/mhourigan/Documents/Projects/iPhone/Trendz/Project/Images/Background.png
+c000000004A1060060000000000037E04
+t1242587142
+s228868
+
+N/Users/mhourigan/Documents/Projects/iPhone/Trendz/Project/Settings.bundle
+c000000004A13C0BF0000000000000088
+t1242808511
+s136
+
+N/Users/mhourigan/Documents/Projects/iPhone/Trendz/Project/Trendz_Prefix.pch
+c000000004844B332000000000000005A
+t1212461874
+s90
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/mhourigan/Documents/Projects/iPhone/Trendz/Project/build/Debug-iphonesimulator/Trendz.app
+t1249120320
+s408
+
+N/Users/mhourigan/Documents/Projects/iPhone/Trendz/Project/build/Debug-iphonesimulator/Trendz.app.dSYM
+t1249120320
+s102
+
+N/Users/mhourigan/Documents/Projects/iPhone/Trendz/Project/build/Debug-iphonesimulator/Trendz.app/Background.png
+t1243897692
+s228868
+
+N/Users/mhourigan/Documents/Projects/iPhone/Trendz/Project/build/Debug-iphonesimulator/Trendz.app/Default.png
+t1243897692
+s40371
+
+N/Users/mhourigan/Documents/Projects/iPhone/Trendz/Project/build/Debug-iphonesimulator/Trendz.app/How To.txt
+t1243897692
+s924
+
+N/Users/mhourigan/Documents/Projects/iPhone/Trendz/Project/build/Debug-iphonesimulator/Trendz.app/Icon.png
+t1243897692
+s4087
+
+N/Users/mhourigan/Documents/Projects/iPhone/Trendz/Project/build/Debug-iphonesimulator/Trendz.app/Images
+t1243932405
+s816
+
+N/Users/mhourigan/Documents/Projects/iPhone/Trendz/Project/build/Debug-iphonesimulator/Trendz.app/Info.plist
+t1249120318
+s644
+
+N/Users/mhourigan/Documents/Projects/iPhone/Trendz/Project/build/Debug-iphonesimulator/Trendz.app/Localizable.strings
+t1249120319
+s70
+
+N/Users/mhourigan/Documents/Projects/iPhone/Trendz/Project/build/Debug-iphonesimulator/Trendz.app/PkgInfo
+t1249120318
+s8
+
+N/Users/mhourigan/Documents/Projects/iPhone/Trendz/Project/build/Debug-iphonesimulator/Trendz.app/Settings.bundle
+t1243897692
+s136
+
+N/Users/mhourigan/Documents/Projects/iPhone/Trendz/Project/build/Debug-iphonesimulator/Trendz.app/Trendz
+t1249120320
+s123128
+
+N/Users/mhourigan/Documents/Projects/iPhone/Trendz/Project/build/Trendz.build/Debug-iphonesimulator/Trendz.build/Objects-normal/i386/AppController.o
+t1249120320
+s66864
+
+N/Users/mhourigan/Documents/Projects/iPhone/Trendz/Project/build/Trendz.build/Debug-iphonesimulator/Trendz.build/Objects-normal/i386/ClickableScrollView.o
+t1249120320
+s11352
+
+N/Users/mhourigan/Documents/Projects/iPhone/Trendz/Project/build/Trendz.build/Debug-iphonesimulator/Trendz.build/Objects-normal/i386/CloudViewController.o
+t1249120320
+s43748
+
+N/Users/mhourigan/Documents/Projects/iPhone/Trendz/Project/build/Trendz.build/Debug-iphonesimulator/Trendz.build/Objects-normal/i386/SearchBarController.o
+t1249120320
+s47860
+
+N/Users/mhourigan/Documents/Projects/iPhone/Trendz/Project/build/Trendz.build/Debug-iphonesimulator/Trendz.build/Objects-normal/i386/SettingsViewController.o
+t1249120320
+s39512
+
+N/Users/mhourigan/Documents/Projects/iPhone/Trendz/Project/build/Trendz.build/Debug-iphonesimulator/Trendz.build/Objects-normal/i386/SliderCell.o
+t1249120320
+s22016
+
+N/Users/mhourigan/Documents/Projects/iPhone/Trendz/Project/build/Trendz.build/Debug-iphonesimulator/Trendz.build/Objects-normal/i386/TableViewCell.o
+t1249120320
+s31116
+
+N/Users/mhourigan/Documents/Projects/iPhone/Trendz/Project/build/Trendz.build/Debug-iphonesimulator/Trendz.build/Objects-normal/i386/Trend.o
+t1249120319
+s13292
+
+N/Users/mhourigan/Documents/Projects/iPhone/Trendz/Project/build/Trendz.build/Debug-iphonesimulator/Trendz.build/Objects-normal/i386/TrendsListViewController.o
+t1249120319
+s61948
+
+N/Users/mhourigan/Documents/Projects/iPhone/Trendz/Project/build/Trendz.build/Debug-iphonesimulator/Trendz.build/Objects-normal/i386/TrendsView.o
+t1249120320
+s59984
+
+N/Users/mhourigan/Documents/Projects/iPhone/Trendz/Project/build/Trendz.build/Debug-iphonesimulator/Trendz.build/Objects-normal/i386/TrendsViewController.o
+t1249120320
+s103480
+
+N/Users/mhourigan/Documents/Projects/iPhone/Trendz/Project/build/Trendz.build/Debug-iphonesimulator/Trendz.build/Objects-normal/i386/Trendz.LinkFileList
+c000000004A245F5C0000000000000796
+t1243897692
+s1942
+
+N/Users/mhourigan/Documents/Projects/iPhone/Trendz/Project/build/Trendz.build/Debug-iphonesimulator/Trendz.build/Objects-normal/i386/XMLReader.o
+t1249120320
+s47540
+
+N/Users/mhourigan/Documents/Projects/iPhone/Trendz/Project/build/Trendz.build/Debug-iphonesimulator/Trendz.build/Objects-normal/i386/main.o
+t1249120319
+s6156
+
+N/Users/mhourigan/Documents/Projects/iPhone/Trendz/Project/en.lproj/Localizable.strings
+c000000004846D10D000000000000006A
+t1212600589
+s106
+
+N/Users/mhourigan/Documents/Projects/iPhone/Trendz/Project/main.m
+c0000000049F8E7750000000000000111
+t1241048949
+s273
+i<UIKit/UIKit.h>
+
+N/var/folders/ce/ceQT-Y95Ft8Di9gjzHlg4E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Trendz_Prefix-bkirlfrsokpzbredlrpzsspwdwss/Trendz_Prefix.pch.gch
+t1249120319
+s12957072
+
+NInfo.plist
+c000000004A24EF0300000000000003CE
+t1243934467
+s974
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies270813118#270813118#0(0"0(0#1#0"4300882208#0"0#
+
+CCompileC build/Trendz.build/Debug-iphonesimulator/Trendz.build/Objects-normal/i386/AppController.o /Users/mhourigan/Documents/Projects/iPhone/Trendz/Project/Classes/AppController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s270813120.007512
+e270813120.170939
+r1
+xCompileC
+xbuild/Trendz.build/Debug-iphonesimulator/Trendz.build/Objects-normal/i386/AppController.o
+x/Users/mhourigan/Documents/Projects/iPhone/Trendz/Project/Classes/AppController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@89"Compile /Users/mhourigan/Documents/Projects/iPhone/Trendz/Project/Classes/AppController.m270813120#270813120#0(0"0(0#0#81"/Users/mhourigan/Documents/Projects/iPhone/Trendz/Project/Classes/AppController.m4300882208#2072"    cd /Users/mhourigan/Documents/Projects/iPhone/Trendz/Project    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.0.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/mhourigan/Documents/Projects/iPhone/Trendz/Project/build/Trendz.build/Debug-iphonesimulator/Trendz.build/Trendz-generated-files.hmap -I/Users/mhourigan/Documents/Projects/iPhone/Trendz/Project/build/Trendz.build/Debug-iphonesimulator/Trendz.build/Trendz-own-target-headers.hmap -I/Users/mhourigan/Documents/Projects/iPhone/Trendz/Project/build/Trendz.build/Debug-iphonesimulator/Trendz.build/Trendz-all-target-headers.hmap -iquote /Users/mhourigan/Documents/Projects/iPhone/Trendz/Project/build/Trendz.build/Debug-iphonesimulator/Trendz.build/Trendz-project-headers.hmap -F/Users/mhourigan/Documents/Projects/iPhone/Trendz/Project/build/Debug-iphonesimulator -I/Users/mhourigan/Documents/Projects/iPhone/Trendz/Project/build/Debug-iphonesimulator/include -I/Users/mhourigan/Documents/Projects/iPhone/Trendz/Project/build/Trendz.build/Debug-iphonesimulator/Trendz.build/DerivedSources/i386 -I/Users/mhourigan/Documents/Projects/iPhone/Trendz/Project/build/Trendz.build/Debug-iphonesimulator/Trendz.build/DerivedSources -include /var/folders/ce/ceQT-Y95Ft8Di9gjzHlg4E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Trendz_Prefix-bkirlfrsokpzbredlrpzsspwdwss/Trendz_Prefix.pch -c /Users/mhourigan/Documents/Projects/iPhone/Trendz/Project/Classes/AppController.m -o /Users/mhourigan/Documents/Projects/iPhone/Trendz/Project/build/Trendz.build/Debug-iphonesimulator/Trendz.build/Objects-normal/i386/AppController.o0#
+
+CCompileC build/Trendz.build/Debug-iphonesimulator/Trendz.build/Objects-normal/i386/ClickableScrollView.o /Users/mhourigan/Documents/Projects/iPhone/Trendz/Project/Classes/ClickableScrollView.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s270813120.433204
+e270813120.480766
+r1
+xCompileC
+xbuild/Trendz.build/Debug-iphonesimulator/Trendz.build/Objects-normal/i386/ClickableScrollView.o
+x/Users/mhourigan/Documents/Projects/iPhone/Trendz/Project/Classes/ClickableScrollView.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@95"Compile /Users/mhourigan/Documents/Projects/iPhone/Trendz/Project/Classes/ClickableScrollView.m270813120#270813120#0(0"0(0#0#87"/Users/mhourigan/Documents/Projects/iPhone/Trendz/Project/Classes/ClickableScrollView.m4300882208#2084"    cd /Users/mhourigan/Documents/Projects/iPhone/Trendz/Project    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.0.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/mhourigan/Documents/Projects/iPhone/Trendz/Project/build/Trendz.build/Debug-iphonesimulator/Trendz.build/Trendz-generated-files.hmap -I/Users/mhourigan/Documents/Projects/iPhone/Trendz/Project/build/Trendz.build/Debug-iphonesimulator/Trendz.build/Trendz-own-target-headers.hmap -I/Users/mhourigan/Documents/Projects/iPhone/Trendz/Project/build/Trendz.build/Debug-iphonesimulator/Trendz.build/Trendz-all-target-headers.hmap -iquote /Users/mhourigan/Documents/Projects/iPhone/Trendz/Project/build/Trendz.build/Debug-iphonesimulator/Trendz.build/Trendz-project-headers.hmap -F/Users/mhourigan/Documents/Projects/iPhone/Trendz/Project/build/Debug-iphonesimulator -I/Users/mhourigan/Documents/Projects/iPhone/Trendz/Project/build/Debug-iphonesimulator/include -I/Users/mhourigan/Documents/Projects/iPhone/Trendz/Project/build/Trendz.build/Debug-iphonesimulator/Trendz.build/DerivedSources/i386 -I/Users/mhourigan/Documents/Projects/iPhone/Trendz/Project/build/Trendz.build/Debug-iphonesimulator/Trendz.build/DerivedSources -include /var/folders/ce/ceQT-Y95Ft8Di9gjzHlg4E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Trendz_Prefix-bkirlfrsokpzbredlrpzsspwdwss/Trendz_Prefix.pch -c /Users/mhourigan/Documents/Projects/iPhone/Trendz/Project/Classes/ClickableScrollView.m -o /Users/mhourigan/Documents/Projects/iPhone/Trendz/Project/build/Trendz.build/Debug-iphonesimulator/Trendz.build/Objects-normal/i386/ClickableScrollView.o0#
+
+CCompileC build/Trendz.build/Debug-iphonesimulator/Trendz.build/Objects-normal/i386/CloudViewController.o /Users/mhourigan/Documents/Projects/iPhone/Trendz/Project/Classes/CloudViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s270813120.171042
+e270813120.284623
+r1
+xCompileC
+xbuild/Trendz.build/Debug-iphonesimulator/Trendz.build/Objects-normal/i386/CloudViewController.o
+x/Users/mhourigan/Documents/Projects/iPhone/Trendz/Project/Classes/CloudViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@95"Compile /Users/mhourigan/Documents/Projects/iPhone/Trendz/Project/Classes/CloudViewController.m270813120#270813120#0(0"0(0#0#87"/Users/mhourigan/Documents/Projects/iPhone/Trendz/Project/Classes/CloudViewController.m4300882208#2084"    cd /Users/mhourigan/Documents/Projects/iPhone/Trendz/Project    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.0.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/mhourigan/Documents/Projects/iPhone/Trendz/Project/build/Trendz.build/Debug-iphonesimulator/Trendz.build/Trendz-generated-files.hmap -I/Users/mhourigan/Documents/Projects/iPhone/Trendz/Project/build/Trendz.build/Debug-iphonesimulator/Trendz.build/Trendz-own-target-headers.hmap -I/Users/mhourigan/Documents/Projects/iPhone/Trendz/Project/build/Trendz.build/Debug-iphonesimulator/Trendz.build/Trendz-all-target-headers.hmap -iquote /Users/mhourigan/Documents/Projects/iPhone/Trendz/Project/build/Trendz.build/Debug-iphonesimulator/Trendz.build/Trendz-project-headers.hmap -F/Users/mhourigan/Documents/Projects/iPhone/Trendz/Project/build/Debug-iphonesimulator -I/Users/mhourigan/Documents/Projects/iPhone/Trendz/Project/build/Debug-iphonesimulator/include -I/Users/mhourigan/Documents/Projects/iPhone/Trendz/Project/build/Trendz.build/Debug-iphonesimulator/Trendz.build/DerivedSources/i386 -I/Users/mhourigan/Documents/Projects/iPhone/Trendz/Project/build/Trendz.build/Debug-iphonesimulator/Trendz.build/DerivedSources -include /var/folders/ce/ceQT-Y95Ft8Di9gjzHlg4E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Trendz_Prefix-bkirlfrsokpzbredlrpzsspwdwss/Trendz_Prefix.pch -c /Users/mhourigan/Documents/Projects/iPhone/Trendz/Project/Classes/CloudViewController.m -o /Users/mhourigan/Documents/Projects/iPhone/Trendz/Project/build/Trendz.build/Debug-iphonesimulator/Trendz.build/Objects-normal/i386/CloudViewController.o0#
+
+CCompileC build/Trendz.build/Debug-iphonesimulator/Trendz.build/Objects-normal/i386/SearchBarController.o /Users/mhourigan/Documents/Projects/iPhone/Trendz/Project/Classes/SearchBarController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s270813120.284729
+e270813120.382957
+r1
+xCompileC
+xbuild/Trendz.build/Debug-iphonesimulator/Trendz.build/Objects-normal/i386/SearchBarController.o
+x/Users/mhourigan/Documents/Projects/iPhone/Trendz/Project/Classes/SearchBarController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@95"Compile /Users/mhourigan/Documents/Projects/iPhone/Trendz/Project/Classes/SearchBarController.m270813120#270813120#0(0"0(0#0#87"/Users/mhourigan/Documents/Projects/iPhone/Trendz/Project/Classes/SearchBarController.m4300882208#2084"    cd /Users/mhourigan/Documents/Projects/iPhone/Trendz/Project    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.0.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/mhourigan/Documents/Projects/iPhone/Trendz/Project/build/Trendz.build/Debug-iphonesimulator/Trendz.build/Trendz-generated-files.hmap -I/Users/mhourigan/Documents/Projects/iPhone/Trendz/Project/build/Trendz.build/Debug-iphonesimulator/Trendz.build/Trendz-own-target-headers.hmap -I/Users/mhourigan/Documents/Projects/iPhone/Trendz/Project/build/Trendz.build/Debug-iphonesimulator/Trendz.build/Trendz-all-target-headers.hmap -iquote /Users/mhourigan/Documents/Projects/iPhone/Trendz/Project/build/Trendz.build/Debug-iphonesimulator/Trendz.build/Trendz-project-headers.hmap -F/Users/mhourigan/Documents/Projects/iPhone/Trendz/Project/build/Debug-iphonesimulator -I/Users/mhourigan/Documents/Projects/iPhone/Trendz/Project/build/Debug-iphonesimulator/include -I/Users/mhourigan/Documents/Projects/iPhone/Trendz/Project/build/Trendz.build/Debug-iphonesimulator/Trendz.build/DerivedSources/i386 -I/Users/mhourigan/Documents/Projects/iPhone/Trendz/Project/build/Trendz.build/Debug-iphonesimulator/Trendz.build/DerivedSources -include /var/folders/ce/ceQT-Y95Ft8Di9gjzHlg4E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Trendz_Prefix-bkirlfrsokpzbredlrpzsspwdwss/Trendz_Prefix.pch -c /Users/mhourigan/Documents/Projects/iPhone/Trendz/Project/Classes/SearchBarController.m -o /Users/mhourigan/Documents/Projects/iPhone/Trendz/Project/build/Trendz.build/Debug-iphonesimulator/Trendz.build/Objects-normal/i386/SearchBarController.o0#
+
+CCompileC build/Trendz.build/Debug-iphonesimulator/Trendz.build/Objects-normal/i386/SettingsViewController.o /Users/mhourigan/Documents/Projects/iPhone/Trendz/Project/Classes/SettingsViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s270813120.350968
+e270813120.433087
+r1
+xCompileC
+xbuild/Trendz.build/Debug-iphonesimulator/Trendz.build/Objects-normal/i386/SettingsViewController.o
+x/Users/mhourigan/Documents/Projects/iPhone/Trendz/Project/Classes/SettingsViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@98"Compile /Users/mhourigan/Documents/Projects/iPhone/Trendz/Project/Classes/SettingsViewController.m270813120#270813120#0(0"0(0#0#90"/Users/mhourigan/Documents/Projects/iPhone/Trendz/Project/Classes/SettingsViewController.m4300882208#2090"    cd /Users/mhourigan/Documents/Projects/iPhone/Trendz/Project    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.0.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/mhourigan/Documents/Projects/iPhone/Trendz/Project/build/Trendz.build/Debug-iphonesimulator/Trendz.build/Trendz-generated-files.hmap -I/Users/mhourigan/Documents/Projects/iPhone/Trendz/Project/build/Trendz.build/Debug-iphonesimulator/Trendz.build/Trendz-own-target-headers.hmap -I/Users/mhourigan/Documents/Projects/iPhone/Trendz/Project/build/Trendz.build/Debug-iphonesimulator/Trendz.build/Trendz-all-target-headers.hmap -iquote /Users/mhourigan/Documents/Projects/iPhone/Trendz/Project/build/Trendz.build/Debug-iphonesimulator/Trendz.build/Trendz-project-headers.hmap -F/Users/mhourigan/Documents/Projects/iPhone/Trendz/Project/build/Debug-iphonesimulator -I/Users/mhourigan/Documents/Projects/iPhone/Trendz/Project/build/Debug-iphonesimulator/include -I/Users/mhourigan/Documents/Projects/iPhone/Trendz/Project/build/Trendz.build/Debug-iphonesimulator/Trendz.build/DerivedSources/i386 -I/Users/mhourigan/Documents/Projects/iPhone/Trendz/Project/build/Trendz.build/Debug-iphonesimulator/Trendz.build/DerivedSources -include /var/folders/ce/ceQT-Y95Ft8Di9gjzHlg4E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Trendz_Prefix-bkirlfrsokpzbredlrpzsspwdwss/Trendz_Prefix.pch -c /Users/mhourigan/Documents/Projects/iPhone/Trendz/Project/Classes/SettingsViewController.m -o /Users/mhourigan/Documents/Projects/iPhone/Trendz/Project/build/Trendz.build/Debug-iphonesimulator/Trendz.build/Objects-normal/i386/SettingsViewController.o0#
+
+CCompileC build/Trendz.build/Debug-iphonesimulator/Trendz.build/Objects-normal/i386/SliderCell.o /Users/mhourigan/Documents/Projects/iPhone/Trendz/Project/Classes/SliderCell.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s270813120.383066
+e270813120.452868
+r1
+xCompileC
+xbuild/Trendz.build/Debug-iphonesimulator/Trendz.build/Objects-normal/i386/SliderCell.o
+x/Users/mhourigan/Documents/Projects/iPhone/Trendz/Project/Classes/SliderCell.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/mhourigan/Documents/Projects/iPhone/Trendz/Project/Classes/SliderCell.m: In function '-[SliderCell initWithValue:minimum:maximum:minimumImageName:maximumImageName:target:tag:]':
+o/Users/mhourigan/Documents/Projects/iPhone/Trendz/Project/Classes/SliderCell.m:12: warning: 'initWithFrame:reuseIdentifier:' is deprecated (declared at /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UITableViewCell.h:177)
+lSLF07#2@86"Compile /Users/mhourigan/Documents/Projects/iPhone/Trendz/Project/Classes/SliderCell.m270813120#270813120#0(494"/Users/mhourigan/Documents/Projects/iPhone/Trendz/Project/Classes/SliderCell.m: In function '-[SliderCell initWithValue:minimum:maximum:minimumImageName:maximumImageName:target:tag:]':/Users/mhourigan/Documents/Projects/iPhone/Trendz/Project/Classes/SliderCell.m:12: warning: 'initWithFrame:reuseIdentifier:' is deprecated (declared at /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UITableViewCell.h:177)1(22@216"'initWithFrame:reuseIdentifier:' is deprecated (declared at /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UITableViewCell.h:177)270813120#185#309#0(6@78"/Users/mhourigan/Documents/Projects/iPhone/Trendz/Project/Classes/SliderCell.m263933172#12#0#12#0#33"'*' is deprecated (declared at *)0(0#0#78"/Users/mhourigan/Documents/Projects/iPhone/Trendz/Project/Classes/SliderCell.m4300882208#2066"    cd /Users/mhourigan/Documents/Projects/iPhone/Trendz/Project    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.0.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/mhourigan/Documents/Projects/iPhone/Trendz/Project/build/Trendz.build/Debug-iphonesimulator/Trendz.build/Trendz-generated-files.hmap -I/Users/mhourigan/Documents/Projects/iPhone/Trendz/Project/build/Trendz.build/Debug-iphonesimulator/Trendz.build/Trendz-own-target-headers.hmap -I/Users/mhourigan/Documents/Projects/iPhone/Trendz/Project/build/Trendz.build/Debug-iphonesimulator/Trendz.build/Trendz-all-target-headers.hmap -iquote /Users/mhourigan/Documents/Projects/iPhone/Trendz/Project/build/Trendz.build/Debug-iphonesimulator/Trendz.build/Trendz-project-headers.hmap -F/Users/mhourigan/Documents/Projects/iPhone/Trendz/Project/build/Debug-iphonesimulator -I/Users/mhourigan/Documents/Projects/iPhone/Trendz/Project/build/Debug-iphonesimulator/include -I/Users/mhourigan/Documents/Projects/iPhone/Trendz/Project/build/Trendz.build/Debug-iphonesimulator/Trendz.build/DerivedSources/i386 -I/Users/mhourigan/Documents/Projects/iPhone/Trendz/Project/build/Trendz.build/Debug-iphonesimulator/Trendz.build/DerivedSources -include /var/folders/ce/ceQT-Y95Ft8Di9gjzHlg4E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Trendz_Prefix-bkirlfrsokpzbredlrpzsspwdwss/Trendz_Prefix.pch -c /Users/mhourigan/Documents/Projects/iPhone/Trendz/Project/Classes/SliderCell.m -o /Users/mhourigan/Documents/Projects/iPhone/Trendz/Project/build/Trendz.build/Debug-iphonesimulator/Trendz.build/Objects-normal/i386/SliderCell.o0#
+
+CCompileC build/Trendz.build/Debug-iphonesimulator/Trendz.build/Objects-normal/i386/TableViewCell.o /Users/mhourigan/Documents/Projects/iPhone/Trendz/Project/Classes/TableViewCell.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s270813119.902725
+e270813120.007400
+r1
+xCompileC
+xbuild/Trendz.build/Debug-iphonesimulator/Trendz.build/Objects-normal/i386/TableViewCell.o
+x/Users/mhourigan/Documents/Projects/iPhone/Trendz/Project/Classes/TableViewCell.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/mhourigan/Documents/Projects/iPhone/Trendz/Project/Classes/TableViewCell.m: In function '-[TableViewCell initWithFrame:reuseIdentifier:]':
+o/Users/mhourigan/Documents/Projects/iPhone/Trendz/Project/Classes/TableViewCell.m:35: warning: 'initWithFrame:reuseIdentifier:' is deprecated (declared at /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UITableViewCell.h:177)
+lSLF07#2@89"Compile /Users/mhourigan/Documents/Projects/iPhone/Trendz/Project/Classes/TableViewCell.m270813119#270813120#0(458"/Users/mhourigan/Documents/Projects/iPhone/Trendz/Project/Classes/TableViewCell.m: In function '-[TableViewCell initWithFrame:reuseIdentifier:]':/Users/mhourigan/Documents/Projects/iPhone/Trendz/Project/Classes/TableViewCell.m:35: warning: 'initWithFrame:reuseIdentifier:' is deprecated (declared at /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UITableViewCell.h:177)1(22@216"'initWithFrame:reuseIdentifier:' is deprecated (declared at /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UITableViewCell.h:177)270813119#146#312#0(6@81"/Users/mhourigan/Documents/Projects/iPhone/Trendz/Project/Classes/TableViewCell.m265340088#35#0#35#0#33"'*' is deprecated (declared at *)0(0#0#81"/Users/mhourigan/Documents/Projects/iPhone/Trendz/Project/Classes/TableViewCell.m4300882208#2072"    cd /Users/mhourigan/Documents/Projects/iPhone/Trendz/Project    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.0.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/mhourigan/Documents/Projects/iPhone/Trendz/Project/build/Trendz.build/Debug-iphonesimulator/Trendz.build/Trendz-generated-files.hmap -I/Users/mhourigan/Documents/Projects/iPhone/Trendz/Project/build/Trendz.build/Debug-iphonesimulator/Trendz.build/Trendz-own-target-headers.hmap -I/Users/mhourigan/Documents/Projects/iPhone/Trendz/Project/build/Trendz.build/Debug-iphonesimulator/Trendz.build/Trendz-all-target-headers.hmap -iquote /Users/mhourigan/Documents/Projects/iPhone/Trendz/Project/build/Trendz.build/Debug-iphonesimulator/Trendz.build/Trendz-project-headers.hmap -F/Users/mhourigan/Documents/Projects/iPhone/Trendz/Project/build/Debug-iphonesimulator -I/Users/mhourigan/Documents/Projects/iPhone/Trendz/Project/build/Debug-iphonesimulator/include -I/Users/mhourigan/Documents/Projects/iPhone/Trendz/Project/build/Trendz.build/Debug-iphonesimulator/Trendz.build/DerivedSources/i386 -I/Users/mhourigan/Documents/Projects/iPhone/Trendz/Project/build/Trendz.build/Debug-iphonesimulator/Trendz.build/DerivedSources -include /var/folders/ce/ceQT-Y95Ft8Di9gjzHlg4E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Trendz_Prefix-bkirlfrsokpzbredlrpzsspwdwss/Trendz_Prefix.pch -c /Users/mhourigan/Documents/Projects/iPhone/Trendz/Project/Classes/TableViewCell.m -o /Users/mhourigan/Documents/Projects/iPhone/Trendz/Project/build/Trendz.build/Debug-iphonesimulator/Trendz.build/Objects-normal/i386/TableViewCell.o0#
+
+CCompileC build/Trendz.build/Debug-iphonesimulator/Trendz.build/Objects-normal/i386/Trend.o /Users/mhourigan/Documents/Projects/iPhone/Trendz/Project/Classes/Trend.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s270813119.812195
+e270813119.878643
+r1
+xCompileC
+xbuild/Trendz.build/Debug-iphonesimulator/Trendz.build/Objects-normal/i386/Trend.o
+x/Users/mhourigan/Documents/Projects/iPhone/Trendz/Project/Classes/Trend.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@81"Compile /Users/mhourigan/Documents/Projects/iPhone/Trendz/Project/Classes/Trend.m270813119#270813119#0(0"0(0#0#73"/Users/mhourigan/Documents/Projects/iPhone/Trendz/Project/Classes/Trend.m4300882208#2056"    cd /Users/mhourigan/Documents/Projects/iPhone/Trendz/Project    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.0.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/mhourigan/Documents/Projects/iPhone/Trendz/Project/build/Trendz.build/Debug-iphonesimulator/Trendz.build/Trendz-generated-files.hmap -I/Users/mhourigan/Documents/Projects/iPhone/Trendz/Project/build/Trendz.build/Debug-iphonesimulator/Trendz.build/Trendz-own-target-headers.hmap -I/Users/mhourigan/Documents/Projects/iPhone/Trendz/Project/build/Trendz.build/Debug-iphonesimulator/Trendz.build/Trendz-all-target-headers.hmap -iquote /Users/mhourigan/Documents/Projects/iPhone/Trendz/Project/build/Trendz.build/Debug-iphonesimulator/Trendz.build/Trendz-project-headers.hmap -F/Users/mhourigan/Documents/Projects/iPhone/Trendz/Project/build/Debug-iphonesimulator -I/Users/mhourigan/Documents/Projects/iPhone/Trendz/Project/build/Debug-iphonesimulator/include -I/Users/mhourigan/Documents/Projects/iPhone/Trendz/Project/build/Trendz.build/Debug-iphonesimulator/Trendz.build/DerivedSources/i386 -I/Users/mhourigan/Documents/Projects/iPhone/Trendz/Project/build/Trendz.build/Debug-iphonesimulator/Trendz.build/DerivedSources -include /var/folders/ce/ceQT-Y95Ft8Di9gjzHlg4E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Trendz_Prefix-bkirlfrsokpzbredlrpzsspwdwss/Trendz_Prefix.pch -c /Users/mhourigan/Documents/Projects/iPhone/Trendz/Project/Classes/Trend.m -o /Users/mhourigan/Documents/Projects/iPhone/Trendz/Project/build/Trendz.build/Debug-iphonesimulator/Trendz.build/Objects-normal/i386/Trend.o0#
+
+CCompileC build/Trendz.build/Debug-iphonesimulator/Trendz.build/Objects-normal/i386/TrendsListViewController.o /Users/mhourigan/Documents/Projects/iPhone/Trendz/Project/Classes/TrendsListViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s270813119.738383
+e270813119.902620
+r1
+xCompileC
+xbuild/Trendz.build/Debug-iphonesimulator/Trendz.build/Objects-normal/i386/TrendsListViewController.o
+x/Users/mhourigan/Documents/Projects/iPhone/Trendz/Project/Classes/TrendsListViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/mhourigan/Documents/Projects/iPhone/Trendz/Project/Classes/TrendsListViewController.m: In function '-[TrendsListViewController tableView:cellForRowAtIndexPath:]':
+o/Users/mhourigan/Documents/Projects/iPhone/Trendz/Project/Classes/TrendsListViewController.m:189: warning: 'setText:' is deprecated (declared at /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UITableViewCell.h:199)
+o/Users/mhourigan/Documents/Projects/iPhone/Trendz/Project/Classes/TrendsListViewController.m:190: warning: 'setTextColor:' is deprecated (declared at /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UITableViewCell.h:199)
+lSLF07#2@100"Compile /Users/mhourigan/Documents/Projects/iPhone/Trendz/Project/Classes/TrendsListViewController.m270813119#270813119#0(779"/Users/mhourigan/Documents/Projects/iPhone/Trendz/Project/Classes/TrendsListViewController.m: In function '-[TrendsListViewController tableView:cellForRowAtIndexPath:]':/Users/mhourigan/Documents/Projects/iPhone/Trendz/Project/Classes/TrendsListViewController.m:189: warning: 'setText:' is deprecated (declared at /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UITableViewCell.h:199)/Users/mhourigan/Documents/Projects/iPhone/Trendz/Project/Classes/TrendsListViewController.m:190: warning: 'setTextColor:' is deprecated (declared at /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UITableViewCell.h:199)2(22@194"'setText:' is deprecated (declared at /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UITableViewCell.h:199)270813119#170#302#0(6@92"/Users/mhourigan/Documents/Projects/iPhone/Trendz/Project/Classes/TrendsListViewController.m265339873#189#0#189#0#33"'*' is deprecated (declared at *)0(22@199"'setTextColor:' is deprecated (declared at /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UITableViewCell.h:199)270813119#472#307#0(6@92"/Users/mhourigan/Documents/Projects/iPhone/Trendz/Project/Classes/TrendsListViewController.m265339873#190#0#190#0#33"'*' is deprecated (declared at *)0(0#0#92"/Users/mhourigan/Documents/Projects/iPhone/Trendz/Project/Classes/TrendsListViewController.m4300882208#2094"    cd /Users/mhourigan/Documents/Projects/iPhone/Trendz/Project    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.0.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/mhourigan/Documents/Projects/iPhone/Trendz/Project/build/Trendz.build/Debug-iphonesimulator/Trendz.build/Trendz-generated-files.hmap -I/Users/mhourigan/Documents/Projects/iPhone/Trendz/Project/build/Trendz.build/Debug-iphonesimulator/Trendz.build/Trendz-own-target-headers.hmap -I/Users/mhourigan/Documents/Projects/iPhone/Trendz/Project/build/Trendz.build/Debug-iphonesimulator/Trendz.build/Trendz-all-target-headers.hmap -iquote /Users/mhourigan/Documents/Projects/iPhone/Trendz/Project/build/Trendz.build/Debug-iphonesimulator/Trendz.build/Trendz-project-headers.hmap -F/Users/mhourigan/Documents/Projects/iPhone/Trendz/Project/build/Debug-iphonesimulator -I/Users/mhourigan/Documents/Projects/iPhone/Trendz/Project/build/Debug-iphonesimulator/include -I/Users/mhourigan/Documents/Projects/iPhone/Trendz/Project/build/Trendz.build/Debug-iphonesimulator/Trendz.build/DerivedSources/i386 -I/Users/mhourigan/Documents/Projects/iPhone/Trendz/Project/build/Trendz.build/Debug-iphonesimulator/Trendz.build/DerivedSources -include /var/folders/ce/ceQT-Y95Ft8Di9gjzHlg4E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Trendz_Prefix-bkirlfrsokpzbredlrpzsspwdwss/Trendz_Prefix.pch -c /Users/mhourigan/Documents/Projects/iPhone/Trendz/Project/Classes/TrendsListViewController.m -o /Users/mhourigan/Documents/Projects/iPhone/Trendz/Project/build/Trendz.build/Debug-iphonesimulator/Trendz.build/Objects-normal/i386/TrendsListViewController.o0#
+
+CCompileC build/Trendz.build/Debug-iphonesimulator/Trendz.build/Objects-normal/i386/TrendsView.o /Users/mhourigan/Documents/Projects/iPhone/Trendz/Project/Classes/TrendsView.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s270813120.226338
+e270813120.350806
+r1
+xCompileC
+xbuild/Trendz.build/Debug-iphonesimulator/Trendz.build/Objects-normal/i386/TrendsView.o
+x/Users/mhourigan/Documents/Projects/iPhone/Trendz/Project/Classes/TrendsView.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@86"Compile /Users/mhourigan/Documents/Projects/iPhone/Trendz/Project/Classes/TrendsView.m270813120#270813120#0(0"0(0#0#78"/Users/mhourigan/Documents/Projects/iPhone/Trendz/Project/Classes/TrendsView.m4300882208#2066"    cd /Users/mhourigan/Documents/Projects/iPhone/Trendz/Project    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.0.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/mhourigan/Documents/Projects/iPhone/Trendz/Project/build/Trendz.build/Debug-iphonesimulator/Trendz.build/Trendz-generated-files.hmap -I/Users/mhourigan/Documents/Projects/iPhone/Trendz/Project/build/Trendz.build/Debug-iphonesimulator/Trendz.build/Trendz-own-target-headers.hmap -I/Users/mhourigan/Documents/Projects/iPhone/Trendz/Project/build/Trendz.build/Debug-iphonesimulator/Trendz.build/Trendz-all-target-headers.hmap -iquote /Users/mhourigan/Documents/Projects/iPhone/Trendz/Project/build/Trendz.build/Debug-iphonesimulator/Trendz.build/Trendz-project-headers.hmap -F/Users/mhourigan/Documents/Projects/iPhone/Trendz/Project/build/Debug-iphonesimulator -I/Users/mhourigan/Documents/Projects/iPhone/Trendz/Project/build/Debug-iphonesimulator/include -I/Users/mhourigan/Documents/Projects/iPhone/Trendz/Project/build/Trendz.build/Debug-iphonesimulator/Trendz.build/DerivedSources/i386 -I/Users/mhourigan/Documents/Projects/iPhone/Trendz/Project/build/Trendz.build/Debug-iphonesimulator/Trendz.build/DerivedSources -include /var/folders/ce/ceQT-Y95Ft8Di9gjzHlg4E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Trendz_Prefix-bkirlfrsokpzbredlrpzsspwdwss/Trendz_Prefix.pch -c /Users/mhourigan/Documents/Projects/iPhone/Trendz/Project/Classes/TrendsView.m -o /Users/mhourigan/Documents/Projects/iPhone/Trendz/Project/build/Trendz.build/Debug-iphonesimulator/Trendz.build/Objects-normal/i386/TrendsView.o0#
+
+CCompileC build/Trendz.build/Debug-iphonesimulator/Trendz.build/Objects-normal/i386/TrendsViewController.o /Users/mhourigan/Documents/Projects/iPhone/Trendz/Project/Classes/TrendsViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s270813120.015162
+e270813120.226229
+r1
+xCompileC
+xbuild/Trendz.build/Debug-iphonesimulator/Trendz.build/Objects-normal/i386/TrendsViewController.o
+x/Users/mhourigan/Documents/Projects/iPhone/Trendz/Project/Classes/TrendsViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@96"Compile /Users/mhourigan/Documents/Projects/iPhone/Trendz/Project/Classes/TrendsViewController.m270813120#270813120#0(0"0(0#0#88"/Users/mhourigan/Documents/Projects/iPhone/Trendz/Project/Classes/TrendsViewController.m4300882208#2086"    cd /Users/mhourigan/Documents/Projects/iPhone/Trendz/Project    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.0.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/mhourigan/Documents/Projects/iPhone/Trendz/Project/build/Trendz.build/Debug-iphonesimulator/Trendz.build/Trendz-generated-files.hmap -I/Users/mhourigan/Documents/Projects/iPhone/Trendz/Project/build/Trendz.build/Debug-iphonesimulator/Trendz.build/Trendz-own-target-headers.hmap -I/Users/mhourigan/Documents/Projects/iPhone/Trendz/Project/build/Trendz.build/Debug-iphonesimulator/Trendz.build/Trendz-all-target-headers.hmap -iquote /Users/mhourigan/Documents/Projects/iPhone/Trendz/Project/build/Trendz.build/Debug-iphonesimulator/Trendz.build/Trendz-project-headers.hmap -F/Users/mhourigan/Documents/Projects/iPhone/Trendz/Project/build/Debug-iphonesimulator -I/Users/mhourigan/Documents/Projects/iPhone/Trendz/Project/build/Debug-iphonesimulator/include -I/Users/mhourigan/Documents/Projects/iPhone/Trendz/Project/build/Trendz.build/Debug-iphonesimulator/Trendz.build/DerivedSources/i386 -I/Users/mhourigan/Documents/Projects/iPhone/Trendz/Project/build/Trendz.build/Debug-iphonesimulator/Trendz.build/DerivedSources -include /var/folders/ce/ceQT-Y95Ft8Di9gjzHlg4E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Trendz_Prefix-bkirlfrsokpzbredlrpzsspwdwss/Trendz_Prefix.pch -c /Users/mhourigan/Documents/Projects/iPhone/Trendz/Project/Classes/TrendsViewController.m -o /Users/mhourigan/Documents/Projects/iPhone/Trendz/Project/build/Trendz.build/Debug-iphonesimulator/Trendz.build/Objects-normal/i386/TrendsViewController.o0#
+
+CCompileC build/Trendz.build/Debug-iphonesimulator/Trendz.build/Objects-normal/i386/XMLReader.o /Users/mhourigan/Documents/Projects/iPhone/Trendz/Project/Classes/XMLReader.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s270813119.878746
+e270813120.015055
+r1
+xCompileC
+xbuild/Trendz.build/Debug-iphonesimulator/Trendz.build/Objects-normal/i386/XMLReader.o
+x/Users/mhourigan/Documents/Projects/iPhone/Trendz/Project/Classes/XMLReader.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@85"Compile /Users/mhourigan/Documents/Projects/iPhone/Trendz/Project/Classes/XMLReader.m270813119#270813120#0(0"0(0#0#77"/Users/mhourigan/Documents/Projects/iPhone/Trendz/Project/Classes/XMLReader.m3414973617650413056#2064"    cd /Users/mhourigan/Documents/Projects/iPhone/Trendz/Project    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.0.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/mhourigan/Documents/Projects/iPhone/Trendz/Project/build/Trendz.build/Debug-iphonesimulator/Trendz.build/Trendz-generated-files.hmap -I/Users/mhourigan/Documents/Projects/iPhone/Trendz/Project/build/Trendz.build/Debug-iphonesimulator/Trendz.build/Trendz-own-target-headers.hmap -I/Users/mhourigan/Documents/Projects/iPhone/Trendz/Project/build/Trendz.build/Debug-iphonesimulator/Trendz.build/Trendz-all-target-headers.hmap -iquote /Users/mhourigan/Documents/Projects/iPhone/Trendz/Project/build/Trendz.build/Debug-iphonesimulator/Trendz.build/Trendz-project-headers.hmap -F/Users/mhourigan/Documents/Projects/iPhone/Trendz/Project/build/Debug-iphonesimulator -I/Users/mhourigan/Documents/Projects/iPhone/Trendz/Project/build/Debug-iphonesimulator/include -I/Users/mhourigan/Documents/Projects/iPhone/Trendz/Project/build/Trendz.build/Debug-iphonesimulator/Trendz.build/DerivedSources/i386 -I/Users/mhourigan/Documents/Projects/iPhone/Trendz/Project/build/Trendz.build/Debug-iphonesimulator/Trendz.build/DerivedSources -include /var/folders/ce/ceQT-Y95Ft8Di9gjzHlg4E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Trendz_Prefix-bkirlfrsokpzbredlrpzsspwdwss/Trendz_Prefix.pch -c /Users/mhourigan/Documents/Projects/iPhone/Trendz/Project/Classes/XMLReader.m -o /Users/mhourigan/Documents/Projects/iPhone/Trendz/Project/build/Trendz.build/Debug-iphonesimulator/Trendz.build/Objects-normal/i386/XMLReader.o0#
+
+CCompileC build/Trendz.build/Debug-iphonesimulator/Trendz.build/Objects-normal/i386/main.o /Users/mhourigan/Documents/Projects/iPhone/Trendz/Project/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s270813119.736890
+e270813119.812091
+r1
+xCompileC
+xbuild/Trendz.build/Debug-iphonesimulator/Trendz.build/Objects-normal/i386/main.o
+x/Users/mhourigan/Documents/Projects/iPhone/Trendz/Project/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@72"Compile /Users/mhourigan/Documents/Projects/iPhone/Trendz/Project/main.m270813119#270813119#0(0"0(0#0#64"/Users/mhourigan/Documents/Projects/iPhone/Trendz/Project/main.m4300882208#2046"    cd /Users/mhourigan/Documents/Projects/iPhone/Trendz/Project    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.0.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/mhourigan/Documents/Projects/iPhone/Trendz/Project/build/Trendz.build/Debug-iphonesimulator/Trendz.build/Trendz-generated-files.hmap -I/Users/mhourigan/Documents/Projects/iPhone/Trendz/Project/build/Trendz.build/Debug-iphonesimulator/Trendz.build/Trendz-own-target-headers.hmap -I/Users/mhourigan/Documents/Projects/iPhone/Trendz/Project/build/Trendz.build/Debug-iphonesimulator/Trendz.build/Trendz-all-target-headers.hmap -iquote /Users/mhourigan/Documents/Projects/iPhone/Trendz/Project/build/Trendz.build/Debug-iphonesimulator/Trendz.build/Trendz-project-headers.hmap -F/Users/mhourigan/Documents/Projects/iPhone/Trendz/Project/build/Debug-iphonesimulator -I/Users/mhourigan/Documents/Projects/iPhone/Trendz/Project/build/Debug-iphonesimulator/include -I/Users/mhourigan/Documents/Projects/iPhone/Trendz/Project/build/Trendz.build/Debug-iphonesimulator/Trendz.build/DerivedSources/i386 -I/Users/mhourigan/Documents/Projects/iPhone/Trendz/Project/build/Trendz.build/Debug-iphonesimulator/Trendz.build/DerivedSources -include /var/folders/ce/ceQT-Y95Ft8Di9gjzHlg4E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Trendz_Prefix-bkirlfrsokpzbredlrpzsspwdwss/Trendz_Prefix.pch -c /Users/mhourigan/Documents/Projects/iPhone/Trendz/Project/main.m -o /Users/mhourigan/Documents/Projects/iPhone/Trendz/Project/build/Trendz.build/Debug-iphonesimulator/Trendz.build/Objects-normal/i386/main.o0#
+
+CCopyStringsFile /Users/mhourigan/Documents/Projects/iPhone/Trendz/Project/build/Debug-iphonesimulator/Trendz.app/Localizable.strings en.lproj/Localizable.strings
+s270813118.865527
+e270813119.086555
+r1
+xCopyStringsFile
+x/Users/mhourigan/Documents/Projects/iPhone/Trendz/Project/build/Debug-iphonesimulator/Trendz.app/Localizable.strings
+xen.lproj/Localizable.strings
+lSLF07#2@33"Copy en.lproj/Localizable.strings270813118#270813119#0(0"0(0#0#86"/Users/mhourigan/Documents/Projects/iPhone/Trendz/Project/en.lproj/Localizable.strings4300882208#514"    cd /Users/mhourigan/Documents/Projects/iPhone/Trendz/Project    setenv ICONV /usr/bin/iconv    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copystrings --validate --inputencoding utf-16 --outputencoding binary en.lproj/Localizable.strings --outdir /Users/mhourigan/Documents/Projects/iPhone/Trendz/Project/build/Debug-iphonesimulator/Trendz.app0#
+
+CCpResource "build/Debug-iphonesimulator/Trendz.app/How To.txt" "Classes/How To.txt"
+r0
+
+CCpResource build/Debug-iphonesimulator/Trendz.app/Background.png Images/Background.png
+r0
+
+CCpResource build/Debug-iphonesimulator/Trendz.app/Default.png Default.png
+r0
+
+CCpResource build/Debug-iphonesimulator/Trendz.app/Icon.png Icon.png
+r0
+
+CCpResource build/Debug-iphonesimulator/Trendz.app/Images Images
+r0
+
+CCpResource build/Debug-iphonesimulator/Trendz.app/Settings.bundle Settings.bundle
+r0
+
+CGenerateDSYMFile /Users/mhourigan/Documents/Projects/iPhone/Trendz/Project/build/Debug-iphonesimulator/Trendz.app.dSYM /Users/mhourigan/Documents/Projects/iPhone/Trendz/Project/build/Debug-iphonesimulator/Trendz.app/Trendz
+s270813120.520315
+e270813120.573381
+r1
+xGenerateDSYMFile
+x/Users/mhourigan/Documents/Projects/iPhone/Trendz/Project/build/Debug-iphonesimulator/Trendz.app.dSYM
+x/Users/mhourigan/Documents/Projects/iPhone/Trendz/Project/build/Debug-iphonesimulator/Trendz.app/Trendz
+lSLF07#2@106"GenerateDSYMFile build/Debug-iphonesimulator/Trendz.app.dSYM build/Debug-iphonesimulator/Trendz.app/Trendz270813120#270813120#0(0"0(0#0#103"/Users/mhourigan/Documents/Projects/iPhone/Trendz/Project/build/Debug-iphonesimulator/Trendz.app/Trendz4300882208#437"    cd /Users/mhourigan/Documents/Projects/iPhone/Trendz/Project    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/mhourigan/Documents/Projects/iPhone/Trendz/Project/build/Debug-iphonesimulator/Trendz.app/Trendz -o /Users/mhourigan/Documents/Projects/iPhone/Trendz/Project/build/Debug-iphonesimulator/Trendz.app.dSYM0#
+
+CLd /Users/mhourigan/Documents/Projects/iPhone/Trendz/Project/build/Debug-iphonesimulator/Trendz.app/Trendz normal i386
+s270813120.480854
+e270813120.520211
+r1
+xLd
+x/Users/mhourigan/Documents/Projects/iPhone/Trendz/Project/build/Debug-iphonesimulator/Trendz.app/Trendz
+xnormal
+xi386
+lSLF07#2@108"Link /Users/mhourigan/Documents/Projects/iPhone/Trendz/Project/build/Debug-iphonesimulator/Trendz.app/Trendz270813120#270813120#0(0"0(0#0#0"4300882208#983"    cd /Users/mhourigan/Documents/Projects/iPhone/Trendz/Project    setenv MACOSX_DEPLOYMENT_TARGET 10.5    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.0.sdk -L/Users/mhourigan/Documents/Projects/iPhone/Trendz/Project/build/Debug-iphonesimulator -F/Users/mhourigan/Documents/Projects/iPhone/Trendz/Project/build/Debug-iphonesimulator -filelist /Users/mhourigan/Documents/Projects/iPhone/Trendz/Project/build/Trendz.build/Debug-iphonesimulator/Trendz.build/Objects-normal/i386/Trendz.LinkFileList -mmacosx-version-min=10.5 -framework Foundation -framework UIKit -framework CoreGraphics -framework SystemConfiguration -o /Users/mhourigan/Documents/Projects/iPhone/Trendz/Project/build/Debug-iphonesimulator/Trendz.app/Trendz0#
+
+CProcessInfoPlistFile /Users/mhourigan/Documents/Projects/iPhone/Trendz/Project/build/Debug-iphonesimulator/Trendz.app/Info.plist Info.plist
+s270813118.835179
+e270813118.865365
+r1
+xProcessInfoPlistFile
+x/Users/mhourigan/Documents/Projects/iPhone/Trendz/Project/build/Debug-iphonesimulator/Trendz.app/Info.plist
+xInfo.plist
+lSLF07#2@18"Process Info.plist270813118#270813118#0(0"0(0#0#68"/Users/mhourigan/Documents/Projects/iPhone/Trendz/Project/Info.plist4300882208#526"    cd /Users/mhourigan/Documents/Projects/iPhone/Trendz/Project    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility Info.plist -genpkginfo /Users/mhourigan/Documents/Projects/iPhone/Trendz/Project/build/Debug-iphonesimulator/Trendz.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/mhourigan/Documents/Projects/iPhone/Trendz/Project/build/Debug-iphonesimulator/Trendz.app/Info.plist0#
+
+CProcessPCH /var/folders/ce/ceQT-Y95Ft8Di9gjzHlg4E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Trendz_Prefix-bkirlfrsokpzbredlrpzsspwdwss/Trendz_Prefix.pch.gch Trendz_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s270813119.086675
+e270813119.736722
+r1
+xProcessPCH
+x/var/folders/ce/ceQT-Y95Ft8Di9gjzHlg4E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Trendz_Prefix-bkirlfrsokpzbredlrpzsspwdwss/Trendz_Prefix.pch.gch
+xTrendz_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@28"Precompile Trendz_Prefix.pch270813119#270813119#0(0"0(0#0#75"/Users/mhourigan/Documents/Projects/iPhone/Trendz/Project/Trendz_Prefix.pch4300882208#1920"    cd /Users/mhourigan/Documents/Projects/iPhone/Trendz/Project    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.0.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/mhourigan/Documents/Projects/iPhone/Trendz/Project/build/Trendz.build/Debug-iphonesimulator/Trendz.build/Trendz-generated-files.hmap -I/Users/mhourigan/Documents/Projects/iPhone/Trendz/Project/build/Trendz.build/Debug-iphonesimulator/Trendz.build/Trendz-own-target-headers.hmap -I/Users/mhourigan/Documents/Projects/iPhone/Trendz/Project/build/Trendz.build/Debug-iphonesimulator/Trendz.build/Trendz-all-target-headers.hmap -iquote /Users/mhourigan/Documents/Projects/iPhone/Trendz/Project/build/Trendz.build/Debug-iphonesimulator/Trendz.build/Trendz-project-headers.hmap -F/Users/mhourigan/Documents/Projects/iPhone/Trendz/Project/build/Debug-iphonesimulator -I/Users/mhourigan/Documents/Projects/iPhone/Trendz/Project/build/Debug-iphonesimulator/include -I/Users/mhourigan/Documents/Projects/iPhone/Trendz/Project/build/Trendz.build/Debug-iphonesimulator/Trendz.build/DerivedSources/i386 -I/Users/mhourigan/Documents/Projects/iPhone/Trendz/Project/build/Trendz.build/Debug-iphonesimulator/Trendz.build/DerivedSources -c /Users/mhourigan/Documents/Projects/iPhone/Trendz/Project/Trendz_Prefix.pch -o /var/folders/ce/ceQT-Y95Ft8Di9gjzHlg4E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Trendz_Prefix-bkirlfrsokpzbredlrpzsspwdwss/Trendz_Prefix.pch.gch0#
+
+CTouch /Users/mhourigan/Documents/Projects/iPhone/Trendz/Project/build/Debug-iphonesimulator/Trendz.app
+s270813120.573501
+e270813120.576901
+r1
+xTouch
+x/Users/mhourigan/Documents/Projects/iPhone/Trendz/Project/build/Debug-iphonesimulator/Trendz.app
+lSLF07#2@102"Touch /Users/mhourigan/Documents/Projects/iPhone/Trendz/Project/build/Debug-iphonesimulator/Trendz.app270813120#270813120#0(0"0(0#0#0"4300882208#315"    cd /Users/mhourigan/Documents/Projects/iPhone/Trendz/Project    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/mhourigan/Documents/Projects/iPhone/Trendz/Project/build/Debug-iphonesimulator/Trendz.app0#
+

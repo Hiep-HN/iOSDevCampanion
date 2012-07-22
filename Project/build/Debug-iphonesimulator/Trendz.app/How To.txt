@@ -1,0 +1,29 @@
+Compress a texture
+	Save a 512x512 or 1024x1024 TIFF, PNG, or JPEG.
+	Build textures in Clay/Documents/Textures.
+	In Terminal, run /Developer/Platforms/iPhoneOS.platform/usr/bin/texturetool (I copied it into /usr/bin):
+		> texturetool -e PVRTC -o Granite.pvrtc Granite.tif
+	Copy Clay/Documents/Textures/Granite.pvrtc to Clay/Project/Textures
+
+Perform static memory analysis
+	Set Project > Edit Project Settings > Build > Code Signing Identity from "iPhone Developer" to "Don't Code Sign".
+	Set Project > Set Active Build Configuration to Debug.
+	Set Project > Set Active SDK to Simulator.
+	In Terminal, cd to project directory.
+	In Terminal: xcodebuild clean
+	In Terminal: scan-build -k -V xcodebuild
+
+Renew or request a new certificate
+
+Create a new provision
+
+Add a new device (provisioning)
+
+Move project to a new computer (certificates?)
+
+Build for development and debugging
+
+Build for beta testers
+
+Build for App Store
+
