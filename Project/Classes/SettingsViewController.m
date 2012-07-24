@@ -1,5 +1,6 @@
-//  SettingsViewController.m
-//  Copyright 2009 Michael Hourigan. All rights reserved.
+// SettingsViewController.m
+// Copyright 2012 Michael Hourigan. All rights reserved.
+// Now under GNU open source license.
 
 #import "SettingsViewController.h"
 #import "AppController.h"
@@ -25,7 +26,7 @@
         self.tableView.separatorStyle = UITableViewCellSeparatorStyleSingleLine;
 		
 		NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
-		self.speed = 3;//[defaults floatForKey: kSpeedSettingKey];
+		self.speed = 2;		// Speed it along; normally set to [defaults floatForKey: kSpeedSettingKey];
 		self.density = [defaults floatForKey: kDensitySettingKey];
 	}
 	return self;

@@ -1,5 +1,6 @@
-//  CloudViewController.h
-//  Copyright 2009 Michael Hourigan. All rights reserved.
+// CloudViewController.h
+// Copyright 2012 Michael Hourigan. All rights reserved.
+// Now under GNU open source license.
 
 #import <UIKit/UIKit.h>
 #import "Trend.h"

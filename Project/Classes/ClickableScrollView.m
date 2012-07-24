@@ -1,5 +1,6 @@
-//  ClickableScrollView.m
-//  Copyright 2009 Michael Hourigan. All rights reserved.
+// ClickableScrollView.m
+// Copyright 2012 Michael Hourigan. All rights reserved.
+// Now under GNU open source license.
 
 #import "ClickableScrollView.h"
 

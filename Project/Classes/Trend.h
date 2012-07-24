@@ -1,4 +1,6 @@
 // Trend.h - The model class that stores the information about a trend.
+// Copyright 2012 Michael Hourigan. All rights reserved.
+// Now under GNU open source license.
 
 #import <Foundation/Foundation.h>
 

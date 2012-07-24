@@ -1,18 +1,18 @@
-//  TrendsViewController.m
-//  Copyright 2009 Michael Hourigan. All rights reserved.
+// TrendsViewController.m
+// Copyright 2012 Michael Hourigan. All rights reserved.
+// Now under GNU open source license.
 
 #import "TrendsView.h"
 #import "AppController.h"
 #import "TrendsViewController.h"
 #import "CloudViewController.h"
 #import "Trend.h"
-#import "SearchBarController.h"
 
 #define MOVECLOUDSINBACKGROUND	0	// 0 for same as 1.0 release, 1 for experimenting with speed increases.
 
 
 @implementation TrendsViewController
-@synthesize trendsView, clouds, cloudMakerTimer, cloudMoverTimer, toolbar, searchBarController, searchText, navigationController, selectedCloud, cloudsAreMoving, cloudsArePaused, dialogIsDisplayed, timeOfLastMove;
+@synthesize trendsView, clouds, cloudMakerTimer, cloudMoverTimer, toolbar, navigationController, cloudsAreMoving, cloudsArePaused, timeOfLastMove;
 
 
 - (id) init
@@ -63,7 +63,6 @@
 
 		self.cloudsAreMoving = YES;
 		self.cloudsArePaused = NO;
-		self.dialogIsDisplayed = NO;
 		self.cloudMakerTimer = [[NSTimer scheduledTimerWithTimeInterval: .25 target: self selector: @selector (sendCloud:) userInfo: nil repeats: YES] retain];
 #if MOVECLOUDSINBACKGROUND
 		self.cloudMoverTimer = [[NSTimer scheduledTimerWithTimeInterval: kCloudMoverInterval target: self selector: @selector (moveCloudsInBackground:) userInfo: nil repeats: YES] retain];
@@ -119,9 +118,6 @@
 	[cloudMoverTimer invalidate];
 	[cloudMoverTimer release];
 	[toolbar release];
-	[searchBarController release];
-	[searchText release];
-	[selectedCloud release];
 	[super dealloc];
 }
 
@@ -222,58 +218,28 @@ int Random (int range)
 			NSArray *trends = nil;
 			if (appDelegate.currentTrends && [appDelegate.currentTrends count] > 0)
 				trends = appDelegate.currentTrends;
-			else if (appDelegate.previousTrends && [appDelegate.previousTrends count] > 0)
-				trends = appDelegate.previousTrends;
 			if (trends)
 			{
 				int tries = 0;
 				do
 				{
-					int index = Random ([trends count] - 1);				//??? Currently 0..98 because of a problem with trend[99] having nil fields, probably from the RSS parsing syage.
+					int index = Random ([trends count] - 1);				//??? Currently 0..98 because of a problem with trend[99] having nil fields, probably from the RSS parsing.
 					trend = [trends objectAtIndex: index];
-#if 0				// If we have an option to hide items we've visited before.
-					if (settings.hideVisitedItems)
-					{
-						if (appDelegate.history == nil)
-							appDelegate.history = [[appDelegate readTrendsWithKey: kHistorySettingKey] mutableCopy];
-						if ([appDelegate.history containsObject: trend])
-							trend = nil;
-					}
-#endif
-					if (trend != nil && searchText != nil)						// If we are currently limited to a search string, we may "disqualify" the trend and set it to nil so we can find another.
-						if ([trend.title rangeOfString: searchText].location == NSNotFound)
-							trend = nil;
 				} while (trend == nil && ++tries < 100);
 			}
 #endif
 			
 			if (trend)
 			{
-#if 0			// Identify previous trends (the unavailability of current trends).
-				if (trends == appDelegate.previousTrends)
-				{
-					if (trend.title == nil)
-						NSLog (@"trend.title is nil!");
-					trend.title = [@"*" stringByAppendingString: trend.title];
-				}
-#endif
 				CloudViewController *cloud = [[CloudViewController alloc] initWithTrend: trend];
 				CGRect frame = cloud.view.frame;
 				//frame.origin.x = self.interfaceOrientation == UIInterfaceOrientationLandscapeLeft || self.interfaceOrientation == UIInterfaceOrientationLandscapeRight ? self.trendsView.frame.size.height : self.trendsView.frame.size.width;
 				frame.origin.x = self.trendsView.contentSize.width;
 				int screenHeight;
 				if (self.interfaceOrientation == UIInterfaceOrientationLandscapeLeft || self.interfaceOrientation == UIInterfaceOrientationLandscapeRight)
-				{
 					screenHeight = self.trendsView.frame.size.width;
-					if (searchBarController)
-						screenHeight -= KEYBOARDHEIGHTLANDSCAPE;
-				}
 				else
-				{
 					screenHeight = self.trendsView.frame.size.height;
-					if (searchBarController)
-						screenHeight -= KEYBOARDHEIGHTPORTRAIT;
-				}
 				
 				BOOL collision = NO;
 #if 0
@@ -327,14 +293,13 @@ int Random (int range)
 	{
 		CloudViewController *cloudToRemove = nil;
 		for (CloudViewController *cloud in clouds)
-			if (cloud != selectedCloud)
-			{
-				CGRect frame = cloud.view.frame;
-				frame.origin.x -= cloud.speed * settings.speed * timeSinceLastMove * 60;
-				cloud.view.frame = frame;
-				if (frame.origin.x + frame.size.width < 0)
-					cloudToRemove = cloud;
-			}
+		{
+			CGRect frame = cloud.view.frame;
+			frame.origin.x -= cloud.speed * settings.speed * timeSinceLastMove * 60;
+			cloud.view.frame = frame;
+			if (frame.origin.x + frame.size.width < 0)
+				cloudToRemove = cloud;
+		}
 		if (cloudToRemove != nil)
 		{
 			[self releaseCloud: nil finished: YES context: cloudToRemove];
@@ -362,7 +327,6 @@ int Random (int range)
 	}
 	
 	[UIView commitAnimations];
-	[searchBarController willRotateToInterfaceOrientation: toInterfaceOrientation duration: duration];	// Pass this on to the search bar.
 }
 
 
@@ -386,7 +350,6 @@ int Random (int range)
 	[UIView setAnimationDidStopSelector: @selector (navigationBarGone)];
 	[UIView commitAnimations];
 //	[navigationController.view removeFromSuperview];		//??? We should keep creating and adding this view. Do it once at start-up, then only show it and hide it.
-	self.dialogIsDisplayed = NO;
 }
 
 
@@ -405,7 +368,7 @@ int Random (int range)
 {
 	NSLog (@"> peopleFeed");
 	AppController *appDelegate = (AppController *) [[UIApplication sharedApplication] delegate];
-	appDelegate.feed = kRavenZachary;
+	appDelegate.feed = kBlekkoOrganizers;
 	[appDelegate updateFeed: nil];
 }
 
@@ -465,68 +428,8 @@ int Random (int range)
 
 - (void) hold: (CloudViewController *) cloud
 {
-	if (cloud && !dialogIsDisplayed)
+	if (cloud)
 	{
-		self.dialogIsDisplayed = YES;
-		self.selectedCloud = cloud;
-		[UIView beginAnimations: nil context: nil];
-		[UIView setAnimationDuration: 0.3];
-		CGRect rect;
-		if (self.interfaceOrientation == UIInterfaceOrientationLandscapeLeft || self.interfaceOrientation == UIInterfaceOrientationLandscapeRight)
-		{
-			((UILabel *) selectedCloud.view).font = [UIFont systemFontOfSize: 40];
-			((UILabel *) selectedCloud.view).textColor = [UIColor yellowColor];
-			
-			rect = self.trendsView.frame;
-			rect.size.width = 10000;
-			rect.origin.y = 0;
-			rect.size.height = 40;		// We actually want the top of the menu view.
-			((UILabel *) selectedCloud.view).textAlignment = UITextAlignmentLeft;
-			((UILabel *) selectedCloud.view).numberOfLines = 1;
-			
-			rect.origin.y = (40 - rect.size.height) / 2;
-			rect.origin.x = 6 + self.trendsView.contentOffset.x;
-		}
-		else
-		{
-			((UILabel *) selectedCloud.view).font = [UIFont systemFontOfSize: 48];
-			((UILabel *) selectedCloud.view).textColor = [UIColor yellowColor];
-			
-#if 0		// If we don't include the item in the title of the dialog.
-			rect = self.trendsView.frame;
-			rect.origin.y = 0;
-			rect.size.height = 160;		// We actually want the top of the menu view.
-			((UILabel *) selectedCloud.view).textAlignment = UITextAlignmentCenter;
-			((UILabel *) selectedCloud.view).numberOfLines = 0;
-			rect.size = [((UILabel *) selectedCloud.view).text sizeWithFont: ((UILabel *) selectedCloud.view).font constrainedToSize: rect.size];
-			//??? Adjust font size if it results in truncation or awkward line break.
-			
-			rect.origin.y = (160 - rect.size.height) / 2;
-			rect.origin.x = (self.trendsView.frame.size.width - rect.size.width) / 2 + self.trendsView.contentOffset.x;
-#else
-			((UILabel *) selectedCloud.view).font = [UIFont systemFontOfSize: 40];
-			((UILabel *) selectedCloud.view).textColor = [UIColor yellowColor];
-			
-			rect = self.trendsView.frame;
-			float screenWidth = rect.size.width;
-			rect.size.width = 10000;
-			rect.size.height = 40;		// We actually want the top of the menu view.
-			((UILabel *) selectedCloud.view).textAlignment = UITextAlignmentLeft;
-			((UILabel *) selectedCloud.view).numberOfLines = 1;
-			
-			rect.origin.y = (70 - rect.size.height) / 2;
-			
-			float textWidth = [((UILabel *) selectedCloud.view).text sizeWithFont: ((UILabel *) selectedCloud.view).font constrainedToSize: rect.size].width;
-			if (textWidth < screenWidth)
-				rect.origin.x = self.trendsView.contentOffset.x + (screenWidth - textWidth) / 2;
-			else
-				rect.origin.x = 6 + self.trendsView.contentOffset.x;
-			rect.size.width = textWidth;
-#endif
-		}
-		cloud.view.frame = rect;
-		[UIView commitAnimations];
-		
 		[self tap: (CloudViewController *) cloud];
 	}
 }
@@ -545,67 +448,10 @@ int Random (int range)
 
 
 
-#pragma mark UISearchBarDelegate
-
-- (void) searchBar: (UISearchBar *) searchBar textDidChange: (NSString *) newSearchText
-{
-	if (newSearchText == nil || [newSearchText length] == 0 || [newSearchText isEqualToString: @"Ok"])	// Don't know why closing search field is sending "Ok" here instead of 
-	{
-		self.searchText = nil;
-	}
-	else
-	{
-		self.searchText = [newSearchText lowercaseString];
-		[UIView beginAnimations: nil context: nil];
-		[UIView setAnimationDuration: 0.5];
-		for (CloudViewController *cloud in clouds)
-			cloud.view.alpha = ([cloud.trend.title rangeOfString: searchText].location != NSNotFound) ? 1.0 : 0.0;
-		[UIView commitAnimations];
-	}
-}
-
-
-
-- (void) searchBarSearchButtonClicked: (UISearchBar *) searchBar
-{
-	[self searchBarCancelButtonClicked: searchBar];		// This just makes the search field and keyboard go away.
-}
-
-
-
-- (void) removeSearchField: (NSString *) animationID finished: (BOOL) finished context: (void *) context
-{
-	[searchBarController.view resignFirstResponder];
-	searchBarController.view.alpha = 0;/// Following crashes when clouds go offscreen:	[searchBarController.view removeFromSuperview];
-	self.searchBarController = nil;
-	self.searchText = nil;
-}
-
-
-
-- (void) searchBarCancelButtonClicked: (UISearchBar *) searchBar
-{
-	[searchBar resignFirstResponder];
-	// Hide searchBar by animating it downward.
-	[UIView beginAnimations: nil context: nil];
-	[UIView setAnimationDuration: 0.5];
-	CGRect frame = searchBar.frame;
-	frame.origin.y = self.view.frame.origin.y + self.view.frame.size.height + 10;
-	searchBar.frame = frame;
-	[UIView setAnimationDelegate: self];
-	[UIView setAnimationDidStopSelector: @selector (removeSearchField:finished:context:)];
-	[UIView commitAnimations];
-	self.searchText = nil;
-}
-
-
-
 #pragma mark UIActionSheetDelegate
 
 - (void) actionSheet: (UIActionSheet *) actionSheet clickedButtonAtIndex: (NSInteger) buttonIndex
 {
-	self.selectedCloud = nil;
-	self.dialogIsDisplayed = NO;
 }
 
 @end

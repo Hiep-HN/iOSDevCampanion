@@ -1,4 +1,6 @@
 // AppController.h - Controller for the application.
+// Copyright 2012 Michael Hourigan. All rights reserved.
+// Now under GNU open source license.
 
 #import <UIKit/UIKit.h>
 #import "TrendsViewController.h"
@@ -7,13 +9,13 @@
 
 #define HOLDTIMER				0		// YES if we want to take a "tap" action after user holds down for a period.
 
-#define	TOOLBARHEIGHT			40
+#define TOOLBARHEIGHT			40
 #define kMinutesBetweenUpdates	30		// Check for new RSS feed occasionally. They are updated every hour or so. Set to .05 for finding leaks.
 #define kTrendsInList			100
 
-#define kBlekkoiOS				@"Blekko iOS"
+#define kBlekkoiOS				@"iOS on Blekko"
 #define kiOSDevCampOnTwitter	@"iOSDevCamp"
-#define kRavenZachary			@"Raven Zachary"
+#define kBlekkoOrganizers		@"Organizers on Blekko"
 #define kReminders				@"Reminders"
 
 #define COMPONENT(ubyte)					((ubyte) / 255.)			// Allows us to use Color Picker slider values directly.
@@ -26,9 +28,6 @@
 	NSString *feed;
 	
 	NSMutableArray *currentTrends;
-	NSMutableArray *bookmarks;			// Array of bookmarked trends from defaults.
-	NSMutableArray *history;			// Array of visited trends from defaults. May hold 10, 25, or 50 of the last trends that were tapped on.
-    NSArray *previousTrends;			// Array of last session's currentTrends.
 	NSDictionary *feedURLs;				// Dictionary relating name of feed to its URL.
 	
     BOOL isDataSourceAvailable;
@@ -39,9 +38,6 @@
 @property (nonatomic, retain) TrendsViewController *trendsViewController;
 @property (nonatomic, retain) NSString *feed;
 @property (nonatomic, retain) NSMutableArray *currentTrends;
-@property (nonatomic, retain) NSMutableArray *bookmarks;
-@property (nonatomic, retain) NSMutableArray *history;
-@property (nonatomic, retain) NSArray *previousTrends;
 @property (nonatomic, retain) NSTimer *updateFeedTimer;
 
 - (BOOL) isDataSourceAvailable;
@@ -50,7 +46,6 @@
 
 @interface AppController (AppDelegateMethods)
 
-- (void) showTrendInfo: (Trend *) dictionary  action: (Action) action;
 - (void) getTrendData;
 - (void) addToTrendList: (Trend *) eq;
 - (void) setTrendList: (NSMutableArray *) newTrends;

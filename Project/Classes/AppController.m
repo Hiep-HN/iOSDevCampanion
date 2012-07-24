@@ -1,4 +1,6 @@
 // AppController.m - Controller for the application.
+// Copyright 2012 Michael Hourigan. All rights reserved.
+// Now under GNU open source license.
 
 #import "AppController.h"
 #import "XMLReader.h"
@@ -9,7 +11,7 @@
 #import <SystemConfiguration/SystemConfiguration.h>
 
 @implementation AppController
-@synthesize window, trendsViewController, feed, currentTrends, bookmarks, history, previousTrends, updateFeedTimer;
+@synthesize window, trendsViewController, feed, currentTrends, updateFeedTimer;
 
 
 
@@ -18,10 +20,10 @@
 	if (self = [super init])
 	{
 		feedURLs = [[NSDictionary dictionaryWithObjectsAndKeys:
-			@"http://blekko.com/?q=ios+/topnews+/tech+/date+/rss&auth=77e8c1ba",	kBlekkoiOS,
-			@"http://search.twitter.com/search.rss?q=iosdevcamp",	kiOSDevCampOnTwitter,
-			@"http://blekko.com/?q=%22raven+zachary%22+%22dom+sagolla%22+%22christopher+allen%22+/date+/rss&auth=77e8c1ba",	kRavenZachary,
-			@"",	kReminders,
+			@"http://blekko.com/?q=ios+/topnews+/tech+/date+/rss&auth=77e8c1ba", kBlekkoiOS,
+			@"http://search.twitter.com/search.rss?q=iosdevcamp", kiOSDevCampOnTwitter,
+			@"http://blekko.com/?q=%22raven+zachary%22+%22dom+sagolla%22+%22christopher+allen%22+/date+/rss&auth=77e8c1ba", kBlekkoOrganizers,
+			@"", kReminders,
 			nil] retain];
 		self.feed = kBlekkoiOS;
 		NSMutableDictionary *defaultSettings = [NSMutableDictionary dictionary];
@@ -31,32 +33,6 @@
 		settings = [[SettingsViewController alloc] initWithStyle: UITableViewStyleGrouped];
 	}
 	return self;
-}
-
-
-
-- (void) showTrendInfo: (Trend *) trend action: (Action) action
-{
-    // When the user taps a row in the table, display the Google web page that displays details of the trend they selected.
-	if (history == nil)
-		self.history = [[self readTrendsWithKey: kHistorySettingKey] mutableCopy];
-	[history removeObject: trend];							// In case it is already there, remove it and move it to the top.
-	[history insertObject: trend atIndex: 0];
-	if ([history count] > kHistorySize)
-		[history removeObjectsAtIndexes: [NSIndexSet indexSetWithIndexesInRange: NSMakeRange (kHistorySize, [history count] - kHistorySize)]];
-	[self saveTrends: history withKey: kHistorySettingKey];
-	switch (action)
-	{
-		case kGoogleHotTrends:
-			[[UIApplication sharedApplication] openURL: [NSURL URLWithString: trend.webLink]];
-			break;
-		case kGoogleSearch:
-			[[UIApplication sharedApplication] openURL: [NSURL URLWithString: [NSString stringWithFormat: @"http://www.google.com/search?q=%@&ie=UTF-8&oe=UTF-8&client=safari", [trend.title stringByAddingPercentEscapesUsingEncoding: NSUTF8StringEncoding]]]];
-			break;
-		case kFeelingLucky:
-			[[UIApplication sharedApplication] openURL: [NSURL URLWithString: [NSString stringWithFormat: @"http://www.google.com/search?q=%@&btnI=I%%27m+Feeling+Lucky", [trend.title stringByAddingPercentEscapesUsingEncoding: NSUTF8StringEncoding]]]];
-			break;
-	}
 }
 
 
@@ -176,8 +152,6 @@ NSLog (@"> updateFeed");
 {
 	settings = [[SettingsViewController alloc] init];
     self.currentTrends = nil;
-	self.previousTrends = [self readTrendsWithKey: kPreviousTrendsSettingKey];
-	self.bookmarks = [[[self readTrendsWithKey: kBookmarksSettingKey] mutableCopy] retain];
 
 	CGRect rect = [[UIScreen mainScreen] bounds];
 	
@@ -204,8 +178,6 @@ NSLog (@"> updateFeed");
 	[defaultSettings setObject: [NSNumber numberWithFloat: settings.speed] forKey: kSpeedSettingKey];
 	[defaultSettings setObject: [NSNumber numberWithFloat: settings.density] forKey: kDensitySettingKey];
 	[defaultSettings synchronize];
-	if ([currentTrends count] > 0)
-		[self saveTrends: currentTrends withKey: kPreviousTrendsSettingKey];
 }
 
 
@@ -215,9 +187,6 @@ NSLog (@"> updateFeed");
 	[trendsViewController release];
 	[window release];
 	[currentTrends release];
-	[bookmarks release];
-	[history release];
-	[previousTrends release];
 	[settings release];
 	[updateFeedTimer invalidate];
 	[updateFeedTimer release];

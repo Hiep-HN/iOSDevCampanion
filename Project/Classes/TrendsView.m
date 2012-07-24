@@ -1,5 +1,6 @@
-//  TrendsView.m
-//  Copyright 2009 Michael Hourigan. All rights reserved.
+// TrendsView.m
+// Copyright 2012 Michael Hourigan. All rights reserved.
+// Now under GNU open source license.
 
 #import "TrendsView.h"
 #import "TrendsViewController.h"
@@ -54,7 +55,7 @@
 #endif
 
 		if ([appDelegate isDataSourceAvailable] == NO)
-			[[[[UIAlertView alloc] initWithTitle: @"Internet is not available" message: (appDelegate.previousTrends != nil) ? @"Previous trends will be displayed." : nil delegate: self cancelButtonTitle: @"OK" otherButtonTitles: nil] autorelease] show];
+			[[[[UIAlertView alloc] initWithTitle: @"Internet is not available" message: nil delegate: self cancelButtonTitle: @"OK" otherButtonTitles: nil] autorelease] show];
 	}
 	return self;
 }

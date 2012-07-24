@@ -1,5 +1,6 @@
-//  CloudViewController.m
-//  Copyright 2009 Michael Hourigan. All rights reserved.
+// CloudViewController.m
+// Copyright 2012 Michael Hourigan. All rights reserved.
+// Now under GNU open source license.
 
 #import "CloudViewController.h"
 #import "AppController.h"			// Has definition of settings.
@@ -88,16 +89,6 @@
 		cloudView.text = [NSString stringWithFormat: @"%@ %@", trend.hotness, trend.previousRank];
 #else
 		cloudView.text = [self removeSourceName: trend.title];
-#if 0	// If we have an option to mark or parenthesize visited items.
-		if (settings.markVisitedItems)
-		{
-			AppController *appDelegate = (AppController *) [[UIApplication sharedApplication] delegate];
-			if (appDelegate.history == nil)
-				appDelegate.history = [[appDelegate readTrendsWithKey: kHistorySettingKey] mutableCopy];
-			if ([appDelegate.history containsObject: trend])
-				cloudView.text = [NSString stringWithFormat: @"(%@)", cloudView.text];
-		}
-#endif
 #endif
 		cloudView.backgroundColor = [UIColor clearColor];
 		cloudView.font = [UIFont systemFontOfSize: [self fontSize]];

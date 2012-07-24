@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>Title</key>
-	<string>Trendz</string>
+	<string>iOSDevCampanion</string>
 	<key>StringsTable</key>
 	<string>Root</string>
 	<key>PreferenceSpecifiers</key>
@@ -69,9 +69,9 @@
 			<string>0</string>
 			<key>Titles</key>
 			<array>
-				<string>Google Hot Trends page</string>
-				<string>Regular Google search</string>
-				<string>First hit in Google search</string>
+				<string>Hot Searches page</string>
+				<string>Regular Blekko search</string>
+				<string>First hit in search</string>
 			</array>
 			<key>Values</key>
 			<array>

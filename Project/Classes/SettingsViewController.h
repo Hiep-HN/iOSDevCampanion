@@ -1,15 +1,11 @@
 //  SettingsViewController.h
-//  Copyright 2009 Michael Hourigan. All rights reserved.
+// Copyright 2012 Michael Hourigan. All rights reserved.
+// Now under GNU open source license.
 
 #import <UIKit/UIKit.h>
 
 #define kSpeedSettingKey			@"speed"
 #define kDensitySettingKey			@"density"
-#define kPreviousTrendsSettingKey	@"previousTrends"
-#define kBookmarksSettingKey		@"bookmarks"
-#define kHistorySettingKey			@"history"
-
-#define kHistorySize				50
 
 enum { kSpeedSlider, kDensitySlider, kActionList, kDisplayList };		// Items in settings list view. A way to identify the slider or settings options so we know where to store its value when it changes.
 
